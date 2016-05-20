@@ -1,8 +1,8 @@
 # main links links
 main:
-  - title: "About"
-    url: /about/
-  - title: "Archive"
+  - title: "Blog archive"
     url: /year-archive/
   - title: "Papers"
     url: /papers/
+  - title: "About me"
+    url: /about/
