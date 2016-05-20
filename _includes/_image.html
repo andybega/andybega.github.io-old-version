@@ -1,0 +1,15 @@
+<!-- _includes/image.html -->
+<figure>
+    {% if include.url %}
+    <a href="{{ include.url }}" title="{{ include.title }}" target="_blank">
+    {% else %}
+    <a href="{{ site.url }}/{{ include.img }}" title="{{ include.title }}" target="_blank">
+    {% endif %}
+        <img src="{{ site.url }}/{{ include.img }}" alt="{{ include.title }}" />
+    </a>
+    {% if include.caption %}
+        <figcaption style="text-align: justify"> 
+            {{ include.caption }}
+        </figcaption>
+    {% endif %}
+</figure>

@@ -11,7 +11,7 @@ title                    : "MI Regression"
 title_separator          : "-"
 name                     : "Andreas Beger"
 description              : "An amazing website."
-url                      : http://andybega.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://andybega.github.io #http://127.0.0.1:4000  # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -62,8 +62,8 @@ google_ad_slot           :
 # Site Author
 author:
   name             : "Andreas Beger"
-  avatar           : "bio-photo.jpg"
-  bio              : "I am an amazing person."
+  avatar           : "mugshot2011.jpg"
+  bio              : "Foo foo"
   location         : "Tallinn, Estonia"
   email            :
   uri              :
@@ -84,7 +84,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : andybeega
   vine             :
   weibo            :
   xing             :
@@ -95,6 +95,7 @@ author:
 include:
   - .htaccess
   - _pages
+  - _posts
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -118,6 +119,8 @@ exclude:
   - Rakefile
   - README
   - tmp
+  - notes
+  - _drafts
 keep_files:
   - .git
   - .svn
@@ -204,3 +207,24 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+# Default values
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true

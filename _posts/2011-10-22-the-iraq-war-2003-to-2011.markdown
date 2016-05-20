@@ -1,0 +1,28 @@
+---
+layout: single
+title: The Iraq War, 2003 to 2011
+date: 2011-10-22 02:41:34.000000000 +03:00
+type: post
+published: true
+status: publish
+categories: 
+- post
+tags:
+- Iraq
+meta:
+  _edit_last: '19821693'
+---
+
+President Obama announced today that U.S. troops will leave Iraq by the end of 2011\. What has the 9 year long war accomplished?
+
+Iraq is a democracy, sort of. Although it has a parliament, prime minister, elections and that sort of stuff, it is also pretty corrupt. There has not yet been a peaceful transition of power, a key feature of democracy, as prime minister al-Maliki was reelected to a second term in a troubled election in 2010\. It has a [polity score](http://en.wikipedia.org/wiki/Polity_data_series)  of [3](http://www.systemicpeace.org/polity/irq2.htm) on a scale from -10 to 10, which doesn't quite qualify it as a democracy in common usage. According to the Economist Intelligence Unit's [Democracy Index 2010](http://www.eiu.com/Handlers/WhitepaperHandler.ashx?fi=Democracy_Index_2010_Web.pdf&mode=wp) it is a hybrid regime just a tad above authoritarianism and according to Freedom House it is [not free](http://freedomhouse.org/template.cfm?page=22&year=2011&country=8058).
+
+In 9 years of war, 111,000+ civilian deaths ([Iraq Body Count](http://www.iraqbodycount.org/)), and taking into account excess mortality maybe even upwards of 1 million ([Opinion Research Business survey](http://www.opinion.co.uk/Newsroom_details.aspx?NewsId=120)) out of a population of 31 million. The Iraq Body Count data is based on press reports of violent deaths and actual deaths are most likely higher. But basically around 1 out of every 50 was killed.
+
+Upwards of 15,00o Iraq Security Forces deaths and around 24,000 insurgent deaths ([Iraq War Logs summary at IBC](http://www.iraqbodycount.org/analysis/numbers/warlogs/)).
+
+About 4,800 U.S. and coalition deaths ([iCasualties.org](http://icasualties.org/Iraq/Index.aspx)) and 32,000 U.S. wounded ([DoD](http://www.defense.gov/news/casualty.pdf)). Also, direct cost of [$800 billion or so](http://costofwar.com/en/). But since most of that was financed through debt, the actual cost will probably end up in the [low trillions](http://www.washingtonpost.com/wp-dyn/content/article/2008/03/07/AR2008030702846.html).
+
+Surprisingly, Iraq has surpassed it's pre-war [GDP per capita](http://www.indexmundi.com/g/g.aspx?c=iz&v=67), even during the war. But then, oil prices have risen as well and most of Iraq's economy is based on oil.
+
+Weapons of mass destruction. Never mind.
