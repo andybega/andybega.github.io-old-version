@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Programming MLE models in Stata
-date: 2011-01-30 23:34:04.000000000 +02:00
+#date: 2011-01-30 23:34:04.000000000 +02:00
 categories:
 - post
 tags:
