@@ -11,7 +11,7 @@ title                    : "MI Regression"
 title_separator          : "-"
 name                     : "Andreas Beger"
 description              : "Personal blog."
-url                      : http://127.0.0.1:4000 #https://andybega.github.io #  # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://andybega.github.io #http://127.0.0.1:4000   # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
