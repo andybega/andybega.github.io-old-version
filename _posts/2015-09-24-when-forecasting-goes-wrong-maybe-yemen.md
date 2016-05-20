@@ -21,44 +21,15 @@ To provide some background, the ILC forecasts are generated from an ensemble of 
 
 <p>We made a couple of changes this year, notably adding data for the 1990's, which in turn cascaded into more changes because of the <a href="http://andybeger.com/2015/04/08/public-icews-data/">variation in ICEWS event data volume</a>. This delayed things a bit, but eventually we were able to generate new forecasts for the time period from January to June 2015, using data up to December 2014. Here were the top predictions:</p>
 
-<div style="width:40%;padding:0 0 0 130px;">
-<table>
-<tbody>
-<tr>
-<th>Country</th>
-<th>6-month Prob.</th>
-</tr>
-<tr>
-<td>Burkina Faso</td>
-<td align="right">0.058</td>
-</tr>
-<tr>
-<td>Egypt</td>
-<td align="right">0.055</td>
-</tr>
-<tr>
-<td>Ukraine</td>
-<td align="right">0.044</td>
-</tr>
-<tr>
-<td>India</td>
-<td align="right">0.038</td>
-</tr>
-<tr>
-<td>Somalia</td>
-<td align="right">0.038</td>
-</tr>
-<tr>
-<td>Afghanistan</td>
-<td align="right">0.035</td>
-</tr>
-<tr>
-<td>Nigeria</td>
-<td align="right">0.030</td>
-</tr>
-</tbody>
-</table>
-</div>
+| Country | 6-month Prob. |
+|:--------|--------------:|
+|Burkina Faso | 0.058 |
+|Egypt | 0.055 |
+|Ukraine | 0.044 |
+|India | 0.038 |
+|Somalia | 0.038 |
+|Afghanistan | 0.035 |
+|Nigeria | 0.030 |
 
 <p>The probabilities are from the ensemble forecast and give the probabilities of at least 1 ILC occurring in a country between January and June 2015. To create the table, we ranked countries by these 6-month probabilities and cut off values below some threshold. There is a tradeoff here that any non-perfect model of a 0 or 1, yes/no outcome has: we could have included more cases in this table to increase the chances that we'll capture any ILCs that do occur, but would then also list a lot of countries that won't have an ILC. This is really just a tradeoff, there is no <em>correct</em> answer for how to weigh these two factors.</p>
 <p>We <em>can</em> say that the forecasts in this table should <em>on average, etc.</em> give us a recall of 0.5, and in an updated paper (not yet public) we also listed another 25 cases that should get us to a recall of 0.75, for those who are more interested in avoiding false negatives than false positive.</p>
