@@ -2,10 +2,12 @@
 TODO:
 
 	- figure out slugs, ideally to maintain old WP links
-	- Google plus or disqus comments?
 	- migrate domain name from WP to my own
 	- homepage + blog or just blog?
-	
+
+```
+bundle exec jekyll serve --config _config.yml,_config.dev.yml
+```
 	
 # Changes from template
 
@@ -25,3 +27,4 @@ Added the script code to `_includes/scripts.html`:
 
 ```
 
+Reduced default font size.
