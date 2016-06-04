@@ -12,15 +12,15 @@ title_separator          : "-"
 name                     : "Andreas Beger"
 description              : "Personal blog."
 url                      : https://andybega.github.io #http://127.0.0.1:4000   # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : #"/mireg" # the subpath of your site, e.g. "/blog"
 gh_repo                  :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "facebook", "google-plus", custom"
+  provider               : "disqus"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "mireg"
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
@@ -153,7 +153,7 @@ kramdown:
 
 
 # Outputting
-permalink: /:year/:i_month/:i_day/:title/  #/:categories/:title/
+permalink: /:year/:i_month/:i_day/:title/  #/:categories/:title/ WP: /:year/:i_month/:i_day/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
