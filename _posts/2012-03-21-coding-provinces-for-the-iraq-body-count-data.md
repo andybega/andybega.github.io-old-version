@@ -25,18 +25,18 @@ The process basically consists of four steps:
 
 Two functions cover steps 3 and 4\. The first strips out the "al-" prefix, which just is an article ("the"), the possessive suffix "'s", and a couple of other characters that are in a words sometimes.
 
-{% highlight r %}  
+```r  
 DelChar <- function(x) {  
 word <- sub("al-", "", x, ignore.case = TRUE)  
 word <- gsub("'[s]", "", word)  
 word <- gsub("[?,']", "", word)  
 return(word)  
 }  
-{% endhighlight %}
+```
 
 The other function takes a word and checks it against a list of known city and province pairs ("city.prov") to see whether it matches either, and if so returns that province name:
 
-{% highlight r %}  
+```r  
 ProvLook <- function(x) {  
 province <- NULL  
 repeat {  
@@ -53,7 +53,7 @@ break
 }  
 return(province)  
 }  
-{% endhighlight %}
+```
 
 The rest is a loop over the words in location to evaluate each one. It's not very efficient and takes 7 seconds to run over the 27,500 records I'm using, but it's effective enough. Any ideas on how to improve efficiency? I don't know enough to have any clue on this.
 

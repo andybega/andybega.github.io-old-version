@@ -18,23 +18,23 @@ So, can we do this in R? Yes, and it's not that difficult. There is a `geonames`
 
 Let's start with some data, in this case 5 cities in Afghanistan for which we'd like geographic coordinates:
 
-{% highlight r %}
+```r
 library(geonames)
 
 # list of city names (in Afghanistan)  
 cities <- c("Gereshk", "Lahkar Gah", "Lashkar Gah", "Marjah", "Nad-e Ali")  
-{% endhighlight %}
+```
 
 That gives:
 
-{% highlight r %} 
+```r 
 > cities  
 [1] "Gereshk" "Lashkar Gah" "Marjah" "Nad-e Ali"  
-{% endhighlight %}
+```
 
 Now we need to run them through `GNsearch`. We can restrict the search to Afghanistan with `country="AF"`. But first, since the arguments passed by `GNsearch` to GeoNames are not named (i.e. `...`), I write a convenience function with which we can use `sapply()`. It just takes a city name, passes it to `GNsearch` with the appropriate option to search in Afghanistan, and returns the first search result (I checked that the first result in this case is always the city we want). The result is a list, which we can format into a data frame containing what we want, city name and latitute/longitude:
 
-{% highlight r %}
+```r
 # conveninence function to look up and format results  
 GNsearchAF <- function(x) {  
   res <- GNsearch(name=x, country="AF")  
@@ -46,18 +46,18 @@ GNresult <- sapply(cities, GNsearchAF)
 GNresult <- do.call("rbind", GNresult)  
 GNresult <- cbind(city=row.names(GNresult),  
 subset(GNresult, select=c("lng", "lat", "adminName1")))  
-{% endhighlight %}
+```
 
 Final data frame:
 
-{% highlight r %} 
+```r 
 > GNresult  
 city    lng lat adminName1  
 Gereshk Gereshk 64.57005 31.82089 Helmand  
 Lashkar Gah Lashkar Gah 64.37161 31.59382 Helmand  
 Marjah Marjah 64.11760 31.52112 Helmand  
 Nad-e Ali Nad-e Ali 64.23982 31.64286 Helmand  
-{% endhighlight %}
+```
 
 Here is the [complete code](https://gist.github.com/andybega/6159870).
 

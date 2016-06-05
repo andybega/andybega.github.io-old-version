@@ -36,7 +36,7 @@ Time goes by and after 80 days bulbs are starting to burn out. With data on fail
 
 I created the video using R, with the code below. You'll need [ffmpeg](http://ffmpeg.org) to combine the individual frames into a video at the end.
 
-{% highlight r %}  
+```r  
 library(ggplot2)  
 library(gridExtra)
 
@@ -162,6 +162,6 @@ sims &amp;lt;- lights_sim(365)
 
 system('ffmpeg -f image2 -r 10 -i ~/path/to/frames/%03d.png ~/path/to/video/lightbulbs.mp4')
 
-{% endhighlight %}
+```
 
 r code and github links

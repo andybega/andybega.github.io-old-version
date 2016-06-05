@@ -14,7 +14,7 @@ tags:
 
 Recently I've set up both a PostgreSQL and MySQL server to host databases related to some of our projects in the [Ward Lab](http://mdwardlab.com/). I should note that I have no idea what I'm doing, and this is the first time I've dealt with databases and how to get them working. It's been a very humbling experience, although in the end, we now have two different databases that can be accessed remotely from a laptop through R or other tools like [Quantum GIS](http://www.qgis.org/):
 
-{% highlight r %}  
+```r  
 # setup connection to database  
 library(rgdal)  
 dsn <- "PG: dbname='db' host='someIP' port='5432' user='me' password='guest'"
@@ -22,7 +22,7 @@ dsn <- "PG: dbname='db' host='someIP' port='5432' user='me' password='guest'"
 # Load Afghanistan boundary (source: GADM)  
 state <- readOGR(dsn, layer="afg_adm0")  
 plot(state)  
-{% endhighlight %}
+```
 
 [![Afghanistan]({{ site.url }}/assets/2013/afg.png)]({{ site.url }}/assets/2013/afg.png)
 

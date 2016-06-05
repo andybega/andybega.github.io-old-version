@@ -1,9 +1,21 @@
 
 TODO:
 
-	- figure out slugs, ideally to maintain old WP links
-	- migrate domain name from WP to my own
-	- homepage + blog or just blog?
+
+```
+[![tag]({{ site.url }}/assets/2015/foo.png)]({{ site.url }}/assets/2015/foo.png)
+
+{% capture fig_img %}
+[![tag]({{ site.url }}/assets/2015/foo.png)]({{ site.url }}/assets/2015/foo.png)
+{% endcapture %}
+{% capture fig_caption %}
+Stairs? Were we're going we don't need no stairs.
+{% endcapture %}
+<figure>
+  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
+  <figcaption>{{ fig_caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
+</figure>
+```
 
 ```
 bundle exec jekyll serve --config _config.yml,_config.dev.yml
@@ -28,3 +40,6 @@ Added the script code to `_includes/scripts.html`:
 ```
 
 Reduced default font size.
+
+
+

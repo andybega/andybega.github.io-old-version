@@ -22,7 +22,7 @@ The [Shiny tutorial](http://shiny.rstudio.com/tutorial/) is straightforward and 
 
 The data by the way come from the results section via web scraping. I haven't done much of [this before](http://andybeger.wordpress.com/2013/05/08/plot-of-duke-grade-inflation/), but it is surprisingly easy for well-structured html tables:
 
-{% highlight r %}
+```r
 library(XML)  
 library(plyr)
 
@@ -36,16 +36,16 @@ km <- data.frame(km, stringsAsFactors=F)
 # The last row is blank, we accidentally catch the footer as a row.  
 km <- km[-nrow(km), ]  
 km <- km[, -18]  
-{% endhighlight %}
+```
 
 For publishing apps, the tutorial goes through several options, including hosting at [shinyapps.io](https://www.shinyapps.io/). The latter is free for now, and conveniently integrated in R through the shinyapps library. Once [installed](http://shiny.rstudio.com/articles/shinyapps.html), it is stunningly simple:
 
-{% highlight r %}
+```r
 setwd("path/to/app")
 
 library(shinyapps)  
 deployApp()  
-{% endhighlight %}
+```
 
 It takes a few seconds to package and upload the app, and that's it.
 

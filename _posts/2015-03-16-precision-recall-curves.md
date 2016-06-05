@@ -12,6 +12,8 @@ tags:
 - ROC curves 
 ---
 
+*Update 2016-06: there's a PDF of this now, at [http://ssrn.com/abstract=2765419](http://ssrn.com/abstract=2765419)*
+
 [ROC curves](http://en.wikipedia.org/wiki/Receiver_operating_characteristic)
 are a fairly standard way to evaluate model fit with binary outcomes, like
 (civil) war onset. I would be willing to bet that most if not all quantitative
@@ -28,7 +30,14 @@ case. What I didn't realize until more recently though is that ROC curves are
 a misleading indication of model performance with kind of sparse data that
 happens to be the norm in conflict research.
 
-{% include _image.html img="assets/2015/conf-matrix.png" title="Confusion matrix" caption="Confusion matrix" %}
+$$
+\begin{array}{c|cc}
+Y & p < \theta & p \geq \theta \\
+\hline
+0 & \text{True Neg.} & \text{False Pos.} \\
+1 & \text{False Neg.} & \text{True Pos.} 
+\end{array}
+$$
 
 To recap, the basic situation is that we have a binary outcome, but a stream
 of predictions that as probabilities range between 0 and 1, and the challenge
@@ -118,7 +127,16 @@ the data. Here's an example using some simulated data I'll discuss more below:
   
 Which gives the following ROC curve if we plot the TP and FP rates:
 
-{% include _image.html img="assets/2015/roc-example.png" title="ROC curve for the example data" caption="ROC curve for the example data" %}
+{% capture fig_img %}
+[![ROC curve for the example data]({{ site.url }}/assets/2015/roc-example.png)]({{ site.url }}/assets/2015/roc-example.png)
+{% endcapture %}
+{% capture fig_caption %}
+ROC curve for the example data
+{% endcapture %}
+<figure>
+  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
+  <figcaption>{{ fig_caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
+</figure>
 
 In this example, about 40% of outcomes are positive, but this is rarely the
 case in international relations and conflict research in particular, where
@@ -144,7 +162,14 @@ table it is obvious that the model predictions are still problematic: for
 every correct positive prediction our model makes, there are 10 false
 positives.
 
-{% include _image.html img="assets/2015/fl2003-cm1.png" title="Fearon & Laitin 2003 positive rate" caption="Example with imbalanced data similar to the positive/negative ratio in Fearon & Laitin's 2003 paper on civil war onset (167 per 10,000)." %}
+$$
+\begin{array}{c|cc}
+Y & p < \theta & p \geq \theta \\
+\hline
+0 & 10,000 & 1,000 \\
+1 & 100 & 100 
+\end{array}
+$$
 
 Since it becomes easier to predict negatives as they become more common,
 looking at false positive rates with sparse data might not be that
@@ -159,7 +184,17 @@ The plot below is a precision-recall curve that does this, for the same
 example as before. Instead of FPR we now have precision, and I've also flipped
 the axes as it seems to be convention to plot recall on the x-axis.
 
-{% include _image.html img="assets/2015/pr-example.png" title="Precision-recall curve for the example data" caption="Precision-recall curve for the same example data with 0.4 positives." %}
+{% capture fig_img %}
+[![Precision-recall curve for the same example data with 0.4 positives.]({{ site.url }}/assets/2015/pr-example.png)]({{ site.url }}/assets/2015/pr-example.png)
+{% endcapture %}
+{% capture fig_caption %}
+Precision-recall curve for the same example data with 0.4 positives.
+{% endcapture %}
+<figure>
+  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
+  <figcaption>{{ fig_caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
+</figure>
+
 
 ## Simulations!
 
@@ -177,7 +212,7 @@ edgier on the right, but this is just because there are less positive outcomes
 based on which recall/TPR are calculated. All models are doing equally well if
 we use ROC curves and AUC as our metric.
 
-{% include _image.html img="assets/2015/roc.png" title="ROC curve" caption="ROC curves for 9 models designed to achieve a given AUC, across 3 data sets with the positive ratios varying from 0.4, 0.1 to 0.01. By design, the curves are largely similar, except for some grainy-ness as the number of positive cases decreases." %}
+[![ROC curve]({{ site.url }}/assets/2015/roc.png)]({{ site.url }}/assets/2015/roc.png)
 
 The corresponding precision-recall plots on the other hand show the loss of
 precision as one moves to sparser data, and here it becomes more obvious that
@@ -186,7 +221,7 @@ model barely touches on 0.5 precision (1 correct positive for 1 false
 positive), and if we were to calculate the area under the PR curves (AUC-PR)
 we'd get values much lower, 0.25 and less.
 
-{% include _image.html img="assets/2015/rpc.png" title="Precision-recall curve" caption="Precision-recall curves for the same 9 models of 3 increasingly sparse datasets. The loss of precision as the data become more sparse is apparent, even though all models have the same AUC." %}
+[![PR curves]({{ site.url }}/assets/2015/rpc.png)]({{ site.url }}/assets/2015/rpc.png)
 
 A lot of conflict research is in the world of the rightmost plot, maybe
 somewhere between the two rightmost plots if you are working with occurrence
@@ -225,7 +260,7 @@ that doesn't alter this ranking. For the initial example above, I can cut all
 probabilities in half and I would still get the same ROC/PR information
 (recall is 0.5, precision is 0.5, FPR is 0.5):
 
-<div style="width:50%;padding:0 0 0 150px;">
+<div style="width:60%;padding:0 0 0 150px;">
 <table>
 <tbody>
 <tr>

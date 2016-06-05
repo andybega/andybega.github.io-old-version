@@ -13,27 +13,27 @@ tags:
 
 A few months ago I produced some thematic maps of Bosnia ([paper](http://andybeger.wordpress.com/research/ "Research papers")) using `maptools` and other packages in R, but I didn't include scales or a north arrow. It sounds simple and `sp` has functions for doing those things, but I couldn't get it to work well with my maps. Here is a basic map of Bosnia's pre-war municipalities:
 
-{% highlight r %}  
+```r  
 library(maptools)
 
 plot(bosnia)  
-{% endhighlight %}
+```
 
 [![]({{ site.url }}/assets/2012/bosnia_munic.png)]({{ site.url }}/assets/2012/bosnia_munic.png)
 
 The function `map.scale()` from the `maps` package adds a scale. The position is in map units, latitude/longitude in this case:
 
-{% highlight r %}  
+```r  
 library(maps)  
 map.scale(x=15.5, y=42.75, ratio=FALSE, relwidth=0.2)  
-{% endhighlight %}
+```
 
 And `GISTools` `north.arrow` for the north arrow. Units are also in map units. This package has a map scale function as well, which looks nicer but is a little bit more complicated to set up.
 
-{% highlight r %}  
+```r  
 library(GISTools)  
 north.arrow(xb=15.75, yb=43.25, len=0.05, lab="N")  
-{% endhighlight %}
+```
 
 This will produce the following map:
 
@@ -45,7 +45,7 @@ Adding these to a function I wrote for producing thematic maps of Bosnia produce
 
 Here is the function (which is pretty specific to the data I use):
 
-{% highlight r %}  
+```r  
 ThematicMap <- function(vector, breaks, title, legend) {  
   require(maptools)  
   require(shape)  
@@ -79,4 +79,4 @@ breaks <- c(0, 10, 20, 30, 40, Inf)
 png("images/map_dead.png")  
 print(ThematicMap(killed.pk,breaks,"Documented killings during the Bosnian War","per 1,000"))  
 dev.off()  
-{% endhighlight %}
+```

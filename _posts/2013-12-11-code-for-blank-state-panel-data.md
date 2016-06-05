@@ -24,15 +24,15 @@ So to start with something I know is accurate I usually find myself creating a b
 
 How to run it, after you've copied the [code from github](https://github.com/andybega/R_utilities/blob/master/data/state-panel.r):
 
-{% highlight r %}
+```r
 example1 <- state_panel("2000", "2010", by="year")
 
 head(example1[order(example1$ccode, example1$date), ])
-{% endhighlight %}
+```
 
 This will produce a warning saying that state system membership on June 30th of a year was used for the data, and the following result:
 
-{% highlight r %}
+```r
 ccode        date           id
 
 188  2 2000-06-30 2000-06-30 2  
@@ -41,4 +41,4 @@ ccode        date           id
 763  2 2003-06-30 2003-06-30 2  
 955  2 2004-06-30 2004-06-30 2  
 1147 2 2005-06-30 2005-06-30 2
-{% endhighlight %}
+```

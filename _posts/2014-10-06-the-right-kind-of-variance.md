@@ -17,7 +17,16 @@ Nobody in their right mind would think that the chances of civil war in Denmark
 
 The reason for this is obvious when you consider the underlying variance structure. First, to predict something that changes, say [dissident-government conflict](http://predictiveheuristics.com/2013/10/19/games-on-networks-with-application-to-thai-politics/), [the nature of relationships between political parties](http://predictiveheuristics.com/2014/01/16/political-parties-the-eurozone-crisis-and-icews-data/), or [political conflict](http://predictiveheuristics.com/2013/10/31/prediction-versus-explanation/), you need predictors that change.
 
-{% include _image.html img="assets/2014/thailand.png" title="Thailand" caption="Predictions for regime change in Thailand from a model based on reports of government-dissident interactions (top). White noise, with intrinsically high variance, is not helpful (middle), but neither is GDP per capita (bottom)." %}
+{% capture fig_img %}
+[![thailand]({{ site.url }}/assets/2014/thailand.png)]({{ site.url }}/assets/2014/thailand.png)
+{% endcapture %}
+{% capture fig_caption %}
+Predictions for regime change in Thailand from a model based on reports of government-dissident interactions (top). White noise, with intrinsically high variance, is not helpful (middle), but neither is GDP per capita (bottom).
+{% endcapture %}
+<figure>
+  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
+  <figcaption>{{ fig_caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
+</figure>
 
 This is of course a minimal and necessary condition only. White noise inherently has a lot of variance but it won't predict regime change in a country well. Even if a variable turns out to be a good predictor, the fact that it is correlated with an outcome of interest might be nice but [doesn't mean that the relationship makes sense](http://www.tylervigen.com/). In fact, with enough data, you are bound to find some correlations purely due to chance. So sometimes it's good to have concepts and some argument relating them to each other and explaining why the correlation is not spurious. But those nice things aside, at the end of the day, there is no statistical model or technique that can get around the fact that the inputs need to have variance.
 

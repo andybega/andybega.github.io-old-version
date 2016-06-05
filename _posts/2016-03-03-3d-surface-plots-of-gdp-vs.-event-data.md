@@ -8,7 +8,7 @@ tags: [plotly, 3d surface plot]
 
 A while ago I <a href="http://andybeger.com/2014/10/06/the-right-kind-of-variance/">wrote a post</a> about how the patterns by which data for cross-national datasets observed over multiple periods, e.g. with country-year or country-month observations, vary is important for modeling and prediction. Here is another way to visualize why this is the case using 3-d surface plots made with <a href="https://plot.ly">Plotly</a>.
 
-<img src="https://andybeger.files.wordpress.com/2016/02/gdp-logged.png" alt="3d surface plot of logged GDP per capita" />
+[![3d surface plot of logged GDP per capita]({{ site.url }}/assets/2016/gdp-logged.png)]({{ site.url }}/assets/2016/gdp-logged.png)
 
 The plot shows logged GDP per capita for &gt;150 countries from 1995 to 2013. This is about the time period we cover in our data for <a href="http://rap.sagepub.com/content/1/3/2053168014557511">forecasting irregular leadership changes</a>. Countries are sorted by GDP for the last year with data, which is why the near edge of the plot is smoother than the far end. It's obvious that there are some changes within countries and at rates that differ from other countries, but still most of the variation is between countries.
 
@@ -16,7 +16,7 @@ The plot shows logged GDP per capita for &gt;150 countries from 1995 to 2013. Th
 
 The differences are much larger at the high end when we look at the raw, unlogged GDP data:
 
-<img src="https://andybeger.files.wordpress.com/2016/02/gdp-raw.png" alt="3d surface plot of raw GDP per capita" />
+[![3d surface plot of raw GDP per capita]({{ site.url }}/assets/2016/gdp-raw.png)]({{ site.url }}/assets/2016/gdp-raw.png)
 
 Yes, there are differences within countries and this is clearer to see with the unlogged data, but overall the surface is pretty flat over the time dimension and sloping or curving over the list of countries on the <em>y</em> dimension.
 
@@ -24,7 +24,7 @@ The reason why variation on one (spatial) or the other (temporal) dimension is i
 
 Now compare the two plots above to what anti-government protests look like:
 
-<img src="https://andybeger.files.wordpress.com/2016/02/protest-count.png" alt="3d surface plot of protest counts" />
+[![3d surface plot of protest counts]({{ site.url }}/assets/2016/protest-count.png)]({{ site.url }}/assets/2016/protest-count.png)
 
 That's essentially the same set of countries, and over the same time period, but using monthly rather than annual observations. I also flipped the <em>x</em> and <em>y</em> axes, but that hardly matters, it's spiky either way. The data come from the <a href="https://github.com/andybega/rap-ensemble-forecasting">replication data for the Research &amp; Politics article I linked above</a>, and consist of counts of anti-government protests events in the ICEWS event data. There is more variation over time, and although there are countries with higher mean levels of protests, it's not as pronounced a pattern as it was with GDP. This is the kind of thing that might help pin the timing of events down.
 

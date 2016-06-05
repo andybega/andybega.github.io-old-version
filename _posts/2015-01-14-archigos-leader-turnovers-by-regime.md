@@ -27,11 +27,11 @@ When we think about the ways in which irregular transitions can occur--often cou
 
 First, here is a mosaic plot of how leaders entered office by regime type. The area of the cells in these plots corresponds to how many cases fit that combination. Most regimes historically have been "closed anocracies" or what we might call weak autocracies. But even in these and full "autocracies", most leaders entered office regularly, in keeping with that regimes conventions (aka selection by the Politburo). Unsurprisingly, the vast majority of leaders in democracies entered office regularly.
 
-{% include _image.html img="assets/2015/entry-by-regime.png" title="Entry by regime" caption="Regular and irregular leader entries to office for different regime types, 1875-2004." %}
+[![Regular and irregular leader entries to office for different regime types, 1875-2004.]({{ site.url }}/assets/2015/entry-by-regime.png)]({{ site.url }}/assets/2015/entry-by-regime.png)
 
 The second plots shows how leaders left office, by regime type. There are a few more possibilities here, like suicide. Quite a few leaders in autocracies are in power until their death (Stalin, Kim Il Sung come to mind).
 
-{% include _image.html img="assets/2015/exit-by-regime.png" title="Exit by regime" caption="Regular and irregular leader exits from power for different regime types, 1875-2004." %}
+[![Regular and irregular leader exits from power for different regime types, 1875-2004.]({{ site.url }}/assets/2015/exit-by-regime.png)]({{ site.url }}/assets/2015/exit-by-regime.png)
 
 Although irregular assumption of and exit from power are far more common in authoritarian regimes, regular transitions are still the most common means, with the exception of full autocracies, where leaders are much more likely to die in office (e.g. Hafez al-Assad in Syria, Deng Xiaoping in China) or be overthrown (e.g. Mobutu Sese Seko in the DRC, Siad Barre in Somalia).
 
