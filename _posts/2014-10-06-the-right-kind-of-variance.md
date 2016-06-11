@@ -58,12 +58,20 @@ The plot above was created by decomposing the variance of a variable into two co
 Var_{total} = Var_{between} + Var_{within} 
 \\]
 
+\[
+Var_{total} = Var_{between} + Var_{within} 
+\]
+
+$$
+Var_{total} = Var_{between} + Var_{within} 
+$$
+
 Which we can calculate using the values of a variable, x<sub>c,t</sub> for country c at time t, the country means, <span style="text-decoration:overline;">x</span><sub>c</sub>, and the overall mean of the variable, <span style="text-decoration:overline;">x</span>:
 
-\\[
+\[
 \begin{array}{rcl} 
 Var_{between} &=& E[(\bar{x}_c - \bar{x})^2] \\ \\ Var_{within} &=& E[(x_{c,t} - \bar{x}_c)^2] 
 \end{array}
-\\]
+\]
 
 With this, it's easy to calculate the portion of variance that is between countries, which is the last piece needed to recreate the plot. The R code and data to create the two plots in this post, including a function for variance decomposition, are on [github](https://github.com/andybega/var_decomp).
