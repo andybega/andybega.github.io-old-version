@@ -171,6 +171,13 @@ Y & p < \theta & p \geq \theta \\
 \end{array}
 $$
 
+$$
+  \begin{align}
+    |\psi_1\rangle &= a|0\rangle + b|1\rangle \\\\
+    |\psi_2\rangle &= c|0\rangle + d|1\rangle
+  \end{align}
+$$
+
 Since it becomes easier to predict negatives as they become more common,
 looking at false positive rates with sparse data might not be that
 informative. Instead, let's plot something else. The only option, assuming
