@@ -30,14 +30,14 @@ case. What I didn't realize until more recently though is that ROC curves are
 a misleading indication of model performance with kind of sparse data that
 happens to be the norm in conflict research.
 
-$$
+\\[
 \begin{array}{c|cc}
 Y & p < \theta & p \geq \theta \\
 \hline
 0 & \text{True Neg.} & \text{False Pos.} \\
 1 & \text{False Neg.} & \text{True Pos.} 
 \end{array}
-$$
+\\]
 
 To recap, the basic situation is that we have a binary outcome, but a stream
 of predictions that as probabilities range between 0 and 1, and the challenge
@@ -162,14 +162,14 @@ table it is obvious that the model predictions are still problematic: for
 every correct positive prediction our model makes, there are 10 false
 positives.
 
-$$
+\\[
 \begin{array}{c|cc}
 Y & p < \theta & p \geq \theta \\
 \hline
 0 & 10,000 & 1,000 \\
 1 & 100 & 100 
 \end{array}
-$$
+\\]
 
 Since it becomes easier to predict negatives as they become more common,
 looking at false positive rates with sparse data might not be that

@@ -31,13 +31,15 @@ https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/
 
 MathJax
 
-Added the script code to `_includes/scripts.html`:
+Added the script code to header.
 
 ```
 <!-- MathJax support -->
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 ```
+
+had to change delimiters to \\[...\\] instead of $$...$$.
 
 Reduced default font size.
 
