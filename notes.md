@@ -39,7 +39,7 @@ Added the script code to header.
 
 ```
 
-had to change delimiters to \\[...\\] instead of $$...$$.
+Github pages is not showing MathJax with environments. They are rendering properly locally, but not on GHP. 
 
 Reduced default font size.
 
