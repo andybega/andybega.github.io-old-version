@@ -153,7 +153,7 @@ kramdown:
 
 
 # Outputting
-permalink: /:year/:i_month/:i_day/:title/  #/:categories/:title/ WP: /:year/:i_month/:i_day/:title/
+permalink: /:year/:month/:day/:title/  #/:categories/:title/ WP: /:year/:i_month/:i_day/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
