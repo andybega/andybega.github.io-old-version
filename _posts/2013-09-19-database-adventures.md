@@ -24,7 +24,7 @@ state <- readOGR(dsn, layer="afg_adm0")
 plot(state)  
 ```
 
-[![Afghanistan]({{ site.url }}/assets/2013/afg.png)]({{ site.url }}/assets/2013/afg.png)
+[![Afghanistan]({{ site.url }}/content/2013/afg.png)]({{ site.url }}/content/2013/afg.png)
 
 It all started in the beginning of this summer, when we needed a spatial database to support several GB worth of data related to a forecasting project with, surprise, a heavy spatial component. [PostgreSQL](http://www.postgresql.org/), an open source database system, in conjunction with the [PostGIS](http://postgis.net/) extension, provides a database that can store that amount of data, supports spatial data types like polygon and raster data, and provides a useful number of related functions. With it you can do things like finding intersections between roads (lines), subsetting a gigantic raster dataset covering the entire Earth to just one country, and more.
 

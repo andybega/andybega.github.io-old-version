@@ -18,7 +18,7 @@ In many circumstances political scientists study binary dependent variables that
 
 We, [Jacqueline DeMeritt](http://www.psci.unt.edu/~demeritt/home.html), [Wonjae Hwang](http://web.utk.edu/~whwang/), [Will Moore](http://mailer.fsu.edu/~whmoore/garnet-whmoore/), and [Andy Beger](http://andybeger.wordpress.com/about/ "About" ), have adapted and implemented a split population logit model in Stata to deal with those issues.
 
-[![]({{ site.url }}/assets/2011/infidelityhonesty.png)]({{ site.url }}/assets/2011/infidelityhonesty.png)
+[![]({{ site.url }}/content/2011/infidelityhonesty.png)]({{ site.url }}/content/2011/infidelityhonesty.png)
 
 To give you an idea of what this new model allows one to do, consider the issue of self-reported infidelity between romantic partners. Using survey data, the reported rate of infidelity is about 13% of the sample. Yet common sense would suggest that this rate be higher, at least due to social desirability bias that would lead respondents who did in fact cheat lie about it to avoid the negative stigma. The split population logit model allows us to separate respondents' rates of honesty and infidelity separately, as shown in the table excerpt from our paper. It shows for example that 41% of the sample likely cheated on their partner, but also that around three-quarters chose to lie about it when surveyed. Quite a difference from the 13% reported in the observed data.
 

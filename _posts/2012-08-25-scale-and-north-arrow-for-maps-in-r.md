@@ -19,7 +19,7 @@ library(maptools)
 plot(bosnia)  
 ```
 
-[![]({{ site.url }}/assets/2012/bosnia_munic.png)]({{ site.url }}/assets/2012/bosnia_munic.png)
+[![]({{ site.url }}/content/2012/bosnia_munic.png)]({{ site.url }}/content/2012/bosnia_munic.png)
 
 The function `map.scale()` from the `maps` package adds a scale. The position is in map units, latitude/longitude in this case:
 
@@ -37,11 +37,11 @@ north.arrow(xb=15.75, yb=43.25, len=0.05, lab="N")
 
 This will produce the following map:
 
-[![Bosnia municipalities 2]({{ site.url }}/assets/2012/bosnia_munic2.png)]({{ site.url }}/assets/2012/bosnia_munic2.png)
+[![Bosnia municipalities 2]({{ site.url }}/content/2012/bosnia_munic2.png)]({{ site.url }}/content/2012/bosnia_munic2.png)
 
 Adding these to a function I wrote for producing thematic maps of Bosnia produces this pretty nice map (with scale and north arrow!) of document per capita civil war deaths:
 
-[![Map of dead in Bosnia]({{ site.url }}/assets/2012/map_dead.png)]({{ site.url }}/assets/2012/map_dead.png)
+[![Map of dead in Bosnia]({{ site.url }}/content/2012/map_dead.png)]({{ site.url }}/content/2012/map_dead.png)
 
 Here is the function (which is pretty specific to the data I use):
 

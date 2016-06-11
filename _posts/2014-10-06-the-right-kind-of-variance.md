@@ -18,7 +18,7 @@ Nobody in their right mind would think that the chances of civil war in Denmark
 The reason for this is obvious when you consider the underlying variance structure. First, to predict something that changes, say [dissident-government conflict](http://predictiveheuristics.com/2013/10/19/games-on-networks-with-application-to-thai-politics/), [the nature of relationships between political parties](http://predictiveheuristics.com/2014/01/16/political-parties-the-eurozone-crisis-and-icews-data/), or [political conflict](http://predictiveheuristics.com/2013/10/31/prediction-versus-explanation/), you need predictors that change.
 
 {% capture fig_img %}
-[![thailand]({{ site.url }}/assets/2014/thailand.png)]({{ site.url }}/assets/2014/thailand.png)
+[![thailand]({{ site.url }}/content/2014/thailand.png)]({{ site.url }}/content/2014/thailand.png)
 {% endcapture %}
 {% capture fig_caption %}
 Predictions for regime change in Thailand from a model based on reports of government-dissident interactions (top). White noise, with intrinsically high variance, is not helpful (middle), but neither is GDP per capita (bottom).
@@ -42,7 +42,7 @@ To help illustrate this point, the figure below maps several groups of variabl
 
 There are meaningful differences within this set of structural variables. Population and GDP have much higher variance (keeping in mind the x-axis is logged) than the remaining usual suspects like Polity IV autocracy and democracy scores, a count of excluded ethnic groups, and military expenditure. Notably, there are also some outliers like CPI and cell subscribers per 1,000 (both from the World Bank) that have surprising within-country variance, but which usually are not considered in models of conflict. But overall the structural variables are mainly useful for distinguishing countries, not timing.
 
-[![varplot]({{ site.url }}/assets/2014/var_all.png)]({{ site.url }}/assets/2014/var_all.png)
+[![varplot]({{ site.url }}/content/2014/var_all.png)]({{ site.url }}/content/2014/var_all.png)
 
 The second and third groups of variables in the plot are counts generated from the ICEWS event data and a couple of their spatial lags. Included are reports of protests against government (Anti-G Protests), intra-government conflict (verbal and material), and government violence against dissident groups (Gov. to Dis. mat. conflict). These event variables tend to fall in the mid-range, with decent variance that is roughly balanced between and within countries. The spatial lags are all of anti-government protests and differ in how neighborhoods and distance were defined, e.g. as protests in the nearest four neighbors, or based on Gower distance of political regimes. The spatial lags roughly keep the overall variation of the event indicators, but almost all of it now occurs within countries over time rather than within countries. Considering that spatial lags in essence smooth data over space, i.e. countries, this is to be expected. Both sets of variables, event counts and their spatial lags, have reasonable total variation that mostly occurs within countries over time, making them better candidates for pinning down the timing of events in countries that are likely to experience them.
 

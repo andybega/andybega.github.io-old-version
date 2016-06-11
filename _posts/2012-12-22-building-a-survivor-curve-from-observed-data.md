@@ -16,13 +16,13 @@ A few weeks ago [we](http://www.mdwardlab.com "Ward Lab") were asked to teach t
 
 A nice thing about duration analysis though is that a lot of the key concepts are already explicitly graphical, like [survival curves](http://en.wikipedia.org/wiki/Survival_function) (wikipedia) and hazard rates. Below, for example, is a survival curve for cancer patients diagnosed with acute lymphoblastic leukemia between 1988 and 2008 in the US, from [SEER fast stats](http://seer.cancer.gov/faststats/index.php):
 
-[![Survival curve for ALL, 1988-2008]({{ site.url }}/assets/2012/all_surv.png)]({{ site.url }}/assets/2012/all_surv.png)
+[![Survival curve for ALL, 1988-2008]({{ site.url }}/content/2012/all_surv.png)]({{ site.url }}/content/2012/all_surv.png)
 
 Starting from the moment at which a patient is diagnosed with cancer (year 0), it shows the proportion of patients who survive without relapse or death any given number of years from diagnosis. Two years from diagnosis, 50 percents of patients are still event free. Five years from diagnosis about 35 percent are event free (what you might call cured), etc. Alternatively, one could interpret it as the probability that a given ALL patient will be alive 2 or 5 years from diagnosis, with probabilities of 0.5 and 0.35 respectively.
 
 So far so good, except that in practice one has to estimate survival functions on the basis of limited empirical data, e.g. using a [Kaplan-Meier estimate](http://en.wikipedia.org/wiki/Kaplan–Meier_estimator) (wikipedia). The resulting estimated survivor curves are not smooth like the curve above, but ragged. Using another example of lightbulbs, with data for the number of days until five bulbs burned out, one might get something like this:
 
-[![First 5 failures]({{ site.url }}/assets/2012/first5_s.png)]({{ site.url }}/assets/2012/first5_s.png)
+[![First 5 failures]({{ site.url }}/content/2012/first5_s.png)]({{ site.url }}/content/2012/first5_s.png)
 
 The black line shows the survivor curve estimate, based on data for the five lightbulbs. I added the grey bars to represent the number of days each of the five bulbs lasted to show how the survivor estimate is built up from individual failures. E.g. the top bar is the first bulb, which lasted for ~80 days. Thus on day 25 all 5 bulbs are still burning and our survivor curve is at 1.0\. Around day 80, after the first bulb has failed, 4 of 5 or 0.8 of the original bulbs are still "alive", bringing the curve down to 0.8\. And so on for each additional failure.
 

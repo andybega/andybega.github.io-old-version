@@ -28,4 +28,4 @@ To begin, get an Amazon Web Services account and log in to the management consol
 
 If you started the instance with the default security group settings like me, you will also have to open port 80 to get access. Go to the security group settings in Amazon management console, select whichever group your instance runs under (e.g. default), and add a custom TCP rule for port 80 (i.e. port range 80). Add the rule and apply. Find out your instance address (instances, at the bottom, it's the string that ends with amazonaws.com, e.g. `ec2-184-88-8-888.compute-1.amazonaws.com`), paste into your browser and you should get to a RStudio log in. The defaults are "rstudio" for both. And, there.
 
-[![]({{ site.url }}/assets/2011/rstudio-ec2.png)]({{ site.url }}/assets/2011/rstudio-ec2.png)
+[![]({{ site.url }}/content/2011/rstudio-ec2.png)]({{ site.url }}/content/2011/rstudio-ec2.png)

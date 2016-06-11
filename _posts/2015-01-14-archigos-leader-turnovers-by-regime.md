@@ -27,17 +27,17 @@ When we think about the ways in which irregular transitions can occur--often cou
 
 First, here is a mosaic plot of how leaders entered office by regime type. The area of the cells in these plots corresponds to how many cases fit that combination. Most regimes historically have been "closed anocracies" or what we might call weak autocracies. But even in these and full "autocracies", most leaders entered office regularly, in keeping with that regimes conventions (aka selection by the Politburo). Unsurprisingly, the vast majority of leaders in democracies entered office regularly.
 
-[![Regular and irregular leader entries to office for different regime types, 1875-2004.]({{ site.url }}/assets/2015/entry-by-regime.png)]({{ site.url }}/assets/2015/entry-by-regime.png)
+[![Regular and irregular leader entries to office for different regime types, 1875-2004.]({{ site.url }}/content/2015/entry-by-regime.png)]({{ site.url }}/content/2015/entry-by-regime.png)
 
 The second plots shows how leaders left office, by regime type. There are a few more possibilities here, like suicide. Quite a few leaders in autocracies are in power until their death (Stalin, Kim Il Sung come to mind).
 
-[![Regular and irregular leader exits from power for different regime types, 1875-2004.]({{ site.url }}/assets/2015/exit-by-regime.png)]({{ site.url }}/assets/2015/exit-by-regime.png)
+[![Regular and irregular leader exits from power for different regime types, 1875-2004.]({{ site.url }}/content/2015/exit-by-regime.png)]({{ site.url }}/content/2015/exit-by-regime.png)
 
 Although irregular assumption of and exit from power are far more common in authoritarian regimes, regular transitions are still the most common means, with the exception of full autocracies, where leaders are much more likely to die in office (e.g. Hafez al-Assad in Syria, Deng Xiaoping in China) or be overthrown (e.g. Mobutu Sese Seko in the DRC, Siad Barre in Somalia).
 
 Another interesting part of Archigos to look at is how long leaders were in power. The plots below are histograms showing the frequency of tenure lengths in months by the different Polity regime types (note the x-axis is logged):
 
-[![Months in power by regime]({{ site.baseurl }}/assets/2015/months-in-power-by-reg.png)]({{ site.baseurl }}/assets/2015/months-in-power-by-reg.png)
+[![Months in power by regime]({{ site.baseurl }}/content/2015/months-in-power-by-reg.png)]({{ site.baseurl }}/content/2015/months-in-power-by-reg.png)
 
 Three patterns, not entirely unsurprising, stand out in these histograms:
 
@@ -47,7 +47,7 @@ Three patterns, not entirely unsurprising, stand out in these histograms:
 
 For the last point, that a few autocratic leaders hold on to power for really long times, that doesn't really seem to be changing. The plot below maps the time in power for leaders who have completed their time in office: the mean, shown by the gray band for the smoothed mean, doesn't seem be changing over time. (Since there are fewer autocracies nowadays than historically, I wonder if that means that the remaining autocracies are very consolidated ones with long leader tenures.)
 
-{% include _image.html img="assets/2015/in-power-over-time.png" title="Time in power for world leaders" caption="Leaders who entered power are are still currently in power are highlighted in cyan. The mean does not seem to change much over time." %}
+{% include _image.html img="content/2015/in-power-over-time.png" title="Time in power for world leaders" caption="Leaders who entered power are are still currently in power are highlighted in cyan. The mean does not seem to change much over time." %}
 
 That's it for Archigos. About the larger point, a lot of published (quantitative) political science consists of explanatory modeling, focused on theory-building and hypothesis testing as it is. The work I do mostly falls into a second category, prediction, which is not, but maybe becoming more, widespread. Basic description like this partly occurs as part of the other two, but often falls to the wayside in online appendixes and supplementary materials. But it seems to me that this is an area in which political science stands in contrast to a lot of popular misconceptions about political conflict (and maybe other aspects of politics as well), like for example [how widespread torture](http://faculty.ucmerced.edu/cconrad2/Academic/ITT_Data_Collection.html) is, or how (un)common civil wars and terrorism are. And unlike statistical modeling, formal theory, etc. it's relatively easy for non-technical people to follow (I think).
 

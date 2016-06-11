@@ -17,7 +17,7 @@ The term Yugoslav came about sometime in the 19th century while the Ottoman Empi
 
 After World War 2 the communists also used the name and technically every citizen of Yugoslavia was a Yugoslav. But six traditional nationalities, Serb, Croat, Slovene, Montenegrin, Macedonian, and Muslim (by nationality), were officially recognized and most people identified with those or other ethnic minorities. The concept of a Yugoslav was kind of a nascent nationalism, similar to the way Bavarians and Saxons eventually came to identify as Germans and the way people from Virginia or Massachusetts eventually came to see themselves as American. Just not quite that accepted.
 
-[![Map of Yugoslavs in Bosnia]({{ site.url }}/assets/2012/map_yugo91.png)]({{ site.url }}/assets/2012/map_yugo91.png)
+[![Map of Yugoslavs in Bosnia]({{ site.url }}/content/2012/map_yugo91.png)]({{ site.url }}/content/2012/map_yugo91.png)
 
 In the 1991 census 5 percent of people in Bosnia choose to identify themselves as Yugoslav, the highest percentage in any of the former Yugoslav republics. The map not he right shows the percentage of Yugoslavs in each of the 109 pre-war municipalities. It was highest in parts of Sarajevo and Tuzla, upwards of 15 percent, and lower in rural areas in the south and east. The blue line on the map shows the approximate 1993 front lines during the war by the way. (The R code for this map is originally from [Diego Valle-Jones](http://blog.diegovalle.net/2010/06/statistical-analysis-and-visualization.html).)
 
@@ -25,7 +25,7 @@ For ethnic conflict research this is pretty nice since in a way it is a direct m
 
 This is a pretty particular argument specific to Bosnia and other Yugoslav republics. Conflict research in studies examining more countries than that typically use a summary measure of ethnic diversity that is more generalizable. The most common one is the ethnolinguistic fractionalization index, with ranges from 0 to 1\. Higher values indicate more diversity (technically, the chance that two randomly picked individuals will belong to different ethnic groups), and usually are expected to increase the potential for violence.
 
-[![Yugoslavia fraction of self-ID]({{ site.url }}/assets/2012/bubbleplot_yugo.png)]({{ site.url }}/assets/2012/bubbleplot_yugo.png)
+[![Yugoslavia fraction of self-ID]({{ site.url }}/content/2012/bubbleplot_yugo.png)]({{ site.url }}/content/2012/bubbleplot_yugo.png)
 
 The same index can be calculated for the 109 municipalities in Bosnia. The bubble chart on the right shows the relationship between this ethnic diversity index, Yugoslav self-identification, and violence. Each red circle is one of the municipalities, with it's diversity score on the y-axis (ELF), and proportion of self-identified Yugoslavs on the x-axis. Why are there no circles on the bottom right quarter of the plot? Few people identified as Yugoslavs in ethnically homogenous municipalities. In ethnically mixed municipalities (the top half of the chart), there is more variation in how many Yugoslavs there were. So there were some municipalities that were ethnically diverse but where few people thought of themselves as Yugoslav. We might call these "nationalist" municipalities. In others a lot of people identified as Yugoslav.
 

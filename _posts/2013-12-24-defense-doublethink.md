@@ -9,7 +9,7 @@ tags: []
 
 If you had to take a look at the chart below, what would you say about the overall trend in US defense spending? There's a bump fairly early on for World War 2, but otherwise it seems to generally increase over time. I'm actually surprised to see that we spend more, in terms of constant US dollars, today than we did at the height of the Korean War, and in fact at any point in US history save World War 2.
 
-[![b2418_chart1_2]({{ site.url }}/assets/2013/b2418_chart1_2.gif)]({{ site.url }}/assets/2013/b2418_chart1_2.gif)
+[![b2418_chart1_2]({{ site.url }}/content/2013/b2418_chart1_2.gif)]({{ site.url }}/content/2013/b2418_chart1_2.gif)
 
 The chart is from the [Heritage Foundation](http://www.heritage.org/), a think thank that exists in a alternative dimension in which logic and coherence are a bit different. The [article](http://www.heritage.org/research/reports/2010/06/us-defense-spending-the-mismatch-between-plans-and-resources) from which this chart says this about it:
 

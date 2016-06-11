@@ -44,7 +44,7 @@ makes it plausible to model without some kind of normalization to account for
 changes in the underlying event volume. This is in contrast to GDELT, where
 the story corpus and event counts increase dramatically over time.
 
-[![Daily totals in the ICEWS event data]({{ site.url }}/assets/2015/icews-daily.png)]({{ site.url }}/assets/2015/icews-daily.png)
+[![Daily totals in the ICEWS event data]({{ site.url }}/content/2015/icews-daily.png)]({{ site.url }}/content/2015/icews-daily.png)
 
 The plot shows the daily event totals as points rather than with a line plot
 mainly because I also wanted to add a moving average to bring out the
@@ -69,7 +69,7 @@ Madagascar, Niger, and Cameroon, and up to 64,000 on the high end for Georgia,
 Israel, Cyprus, and Lebanon. The rates are very skewed, and note that the map
 shows log10 of the rate.
 
-[![Total ICEWS events per capita, using 2013 WDI population figures.]({{ site.url }}/assets/2015/icews-map.png)]({{ site.url }}/assets/2015/icews-map.png)
+[![Total ICEWS events per capita, using 2013 WDI population figures.]({{ site.url }}/content/2015/icews-map.png)]({{ site.url }}/content/2015/icews-map.png)
 
 I also did some hasty linear regressions models (see the linked code below) of
 the logged country totals using a couple of variables from WDI. The moments
@@ -83,7 +83,7 @@ of conflict indicator would help. But I think this is starting to touch on the
 much larger issue of media coverage and bias (again), so I'll just leave with
 this:
 
-[![Distribution of ICEWS events per million by country]({{ site.url }}/assets/2015/events-pcap-hist.png)]({{ site.url }}/assets/2015/events-pcap-hist.png)
+[![Distribution of ICEWS events per million by country]({{ site.url }}/content/2015/events-pcap-hist.png)]({{ site.url }}/content/2015/events-pcap-hist.png)
 
 ## Code
 

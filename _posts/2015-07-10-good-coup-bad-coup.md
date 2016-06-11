@@ -23,13 +23,13 @@ Here is a quick look at the larger picture. I took the same Powell and Thyne [da
 
 The overwhelming pattern for all 227 _successful_ coups that the data cover is that things stay the same (0.41 of cases) or get worse (0.40 of cases). The plot below shows the number of times specific category-to-category switches took place, with the regime 7 days before a successful coup on the _y_-axis, and the regime 2 years later on the _x_-axis. It's really just a slightly more fancy version of a transition matrix.[^2]
 
-[![SSA, 90's on]({{ site.url }}/assets/2015/2-year-transitions-ssa-90on.png)]({{ site.url }}/assets/2015/2-year-transitions-ssa-90on.png)
+[![SSA, 90's on]({{ site.url }}/content/2015/2-year-transitions-ssa-90on.png)]({{ site.url }}/content/2015/2-year-transitions-ssa-90on.png)
 
 In 41, or 18 percent of cases, the regime was more democratic 2 years later. There are probably a few more that were still coded as being in transition to a more democratic regime, so the 18 percent is for unambiguously more democratic regimes.
 
 Below is another way of visualizing the same data. I don't know what this type of plot is called, but in any case the `Gmisc` R package [implements a version of it](http://www.r-bloggers.com/visualizing-transitions-with-the-transitionplot-function/):
 
-[![Transition plot, 2 year]({{ site.url }}/assets/2015/trans-plot-2-year.png)]({{ site.url }}/assets/2015/trans-plot-2-year.png)
+[![Transition plot, 2 year]({{ site.url }}/content/2015/trans-plot-2-year.png)]({{ site.url }}/content/2015/trans-plot-2-year.png)
 
 It's maybe clearer with this plot that of the transitions that do occur, the modal change is to autocracy. The number of autocracies 2 years post-coup is clearly larger than before, at the expense of less autocratic, more liberal regimes. There was one transition from democracy to full democracy--the thin line on the bottom right, which was for Cyprus in 1974 after a short-lived coup that led to Turkish invasion and eventually the fall of the Greek dictatorship and restoration of the previous president.
 
@@ -37,17 +37,17 @@ By the way, I'm trying to consciously steer away from language implying causatio
 
 So, when we consider the whole data, coups have historically more often than not reinforced autocratic tendencies. The picture actually looks much better if you look at post-1990 Sub-Saharan Africa only, as Elischer's Monkey Cage post does:
 
-[![Sub-Saharan Africa 2-year]({{ site.url }}/assets/2015/2-year-transitions-ssa-90on.png)]({{ site.url }}/assets/2015/2-year-transitions-ssa-90on.png)
+[![Sub-Saharan Africa 2-year]({{ site.url }}/content/2015/2-year-transitions-ssa-90on.png)]({{ site.url }}/content/2015/2-year-transitions-ssa-90on.png)
 
 More than a third of coups in post-1990 Sub-Saharan Africa are followed by regime liberalization. To be honest I was a bit surprised that the ratio of "good" to "bad" coups is that high. Here is a timeline of the specific cases. I changed the colors so that "same" is now red as well. The labels are easier to read if you click to open the larger version of the image.
 
-[![Sub-Saharan Africa]({{ site.url }}/assets/2015/ssa-over-time-2yrs.png)]({{ site.url }}/assets/2015/ssa-over-time-2yrs.png)
+[![Sub-Saharan Africa]({{ site.url }}/content/2015/ssa-over-time-2yrs.png)]({{ site.url }}/content/2015/ssa-over-time-2yrs.png)
 
 Niger has had 3 coups since 1990: in 1996, 1999, and 2010\. In the first, Polity decreased a year after the coup, but the other two resulted in improvements. This matches the narrative in Elischer's post, as he gives the second two Nigerien coups as examples of good coups. A couple of other countries also appear twice in this list. I'm not sure whether repeated good coups are still a good thing, but on the other hand I'm not very familiar with the particular case histories, so maybe they really are.
 
 Like with the transition plots before, extending the time period and spatial focus to all countries from 1950 on changes the picture a lot:
 
-[![All coups]({{ site.url }}/assets/2015/all-over-time-2yrs.png)]({{ site.url }}/assets/2015/all-over-time-2yrs.png)
+[![All coups]({{ site.url }}/content/2015/all-over-time-2yrs.png)]({{ site.url }}/content/2015/all-over-time-2yrs.png)
 
 Most coups historically were "bad", with more autocratic or unchanged regimes 2 years later. A few here and there seem to be associated with democratization, and while the number of bad coups has decreased over time from highs in the 60's and 70's, the good coups seem to continue with a steady trickle. Still, despite the occurrence of a substantial number of coups that are associated with democratization, the main pattern historically and still today is that successful coups more often than not associated with more of the same, or worse (autocratization[^3]). The imbalance between positive and negative movements in regime is even more pronounced at shorter time scales, e.g. if you consider regime type 1 year after a coup, and the main immediate effect is probably instability and political deterioration.
 

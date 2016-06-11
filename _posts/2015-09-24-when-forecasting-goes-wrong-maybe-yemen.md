@@ -36,7 +36,7 @@ To provide some background, the ILC forecasts are generated from an ensemble of 
 
 Absent from either table is Yemen, which by the time we made the forecasts already seemed to have experienced an ILC, with President Hadi's <a href="http://english.alarabiya.net/en/News/middle-east/2015/01/22/Yemen-government-offers-resignation.html">resignation in January</a>, and <a href="http://uk.reuters.com/article/2015/03/26/uk-yemen-security-idUKKBN0ML0YM20150326">flight to Saudi Arabia in March</a>. Yemen was instead ranked 33 in our 6-month forecasts. The plot below shows the <em>ranking</em> of Yemen in the monthly forecasts from 2014 on:[^2]
 
-[![Yemen forecast rankings are around 30 in the test period]({{ site.url }}/assets/2015/rank-oslo.png)]({{ site.url }}/assets/2015/rank-oslo.png)
+[![Yemen forecast rankings are around 30 in the test period]({{ site.url }}/content/2015/rank-oslo.png)]({{ site.url }}/content/2015/rank-oslo.png)
 
 <p>Keeping in mind that we produce forecasts for about a 150 to 160 countries, Yemen's EBMA ranking is actually fairly high and consistently in the top fifth, around 30 or so. It's ranked high in the internal conflict and public discontent models, which rely on event aggregations for material conflict between dissidents and government as well as protest, but lower in the other component predictions.</p>
 <p>One can argue here about whether we really missed Yemen in our forecasts or not. At face value, it is not in the tables with which we present forecasts in the paper, even if it still ranks fairly highly overall. Either way it would still be better if Yemen had been higher in our forecasts, especially since there has been plenty of violence and instability in Yemen prior to the recent events in 2015.</p>
@@ -57,7 +57,7 @@ Data problems are not new in international relations, but a growing awareness of
 
 <p>The last factor is about some suspicious imputed values for a variable related to inter-ethnic power relations in Yemen. These data come from the <a href="http://www.epr.ucla.edu">Ethnic Power Relations (UCLA) dataset</a>, which end in 2010 and are imputed as part of the ICEWS project data for years after that. When adding EPR data for the 1990's, we plotted series for a few countries, including Yemen:</p>
 
-[![Excluded population was imputed to around 0.2, but in carry forward remains 0]({{ site.url }}/assets/2015/exclpop.png)]({{ site.url }}/assets/2015/exclpop.png)
+[![Excluded population was imputed to around 0.2, but in carry forward remains 0]({{ site.url }}/content/2015/exclpop.png)]({{ site.url }}/content/2015/exclpop.png)
 
 The top plot shows the original data we used. That shift from 2011 on is an artifact of imputation, also given away as such by the sub-annual variation that is impossible since EPR only tracks things in terms of years. Given that the EPR series are largely stable for countries, over stretches of decades, we switched instead to just carrying forward the last observed value.[^4]
 
@@ -74,12 +74,12 @@ The top plot shows the original data we used. That shift from 2011 on is an arti
 </ul>
 <p>Compare this to the plots below, which show a couple of the most relevant event aggregations. The variables are grouped by the three models in which they are included and separately shows our own (Duke) protest aggregation, which is in several other models as well. All variables are lagged one month. These are the variables that <a href="http://predictiveheuristics.com/2014/10/06/the-right-kind-of-variance/">drive month-to-month variation</a> in our forecasts.</p>
 
-[![Plots of several event aggregations for Yemen that show spikes corresponding to the 2011 revolution and the August 2014 demonstrationsYemen forecast rankings are around 30 in the test period]({{ site.url }}/assets/2015/events.png)]({{ site.url }}/assets/2015/events.png)
+[![Plots of several event aggregations for Yemen that show spikes corresponding to the 2011 revolution and the August 2014 demonstrationsYemen forecast rankings are around 30 in the test period]({{ site.url }}/content/2015/events.png)]({{ site.url }}/content/2015/events.png)
 
 <p>The revolution that ousted Saleh in 2011 is marked, as well as the August protests that started the most recent and ongoing crisis. Both the ICEWS (<code>protest.tALL.l1</code>) and our protest aggregations (<code>i_protest_tGOV_l1</code>), in the left two plots, show corresponding spikes. As do several of the quad variables counting verbal/material conflict/cooperation between government and dissidents or within government, shown in the right two plots.</p>
 <p>Let's now turn back to the progression of Yemen's ranking again, which is in large part driven by the variables shown above. The ensemble forecast picks up the August protests and fighting for a bump in the September forecasts that push Yemen to number 9 in the rankings. This is when the Houthis took control of the capital, the prime minister resigned, and Hadi entered a power-sharing agreement. Then it drops again, and of course we don't know what the event data look like for January, when more trouble came (ok, we know now, but our models didn't know).</p>
 
-[![Yemen forecast rankings are around 30 in the test period]({{ site.url }}/assets/2015/rank-oslo.png)]({{ site.url }}/assets/2015/rank-oslo.png)
+[![Yemen forecast rankings are around 30 in the test period]({{ site.url }}/content/2015/rank-oslo.png)]({{ site.url }}/content/2015/rank-oslo.png)
 
 So our forecasts do pick up correctly on at least part of the story. Loosely speaking they are "correct", in that they match the background narrative of events, up through about September 2014, from which point on the situation slowly deteriorates in a way that our models do not pick up on as much as we would like them to. Quite likely there was a spike in events that would have pushed our forecasts higher had we made them later, i.e. with January or February data, and in the end although Yemen was not included in the tables of forecasts we presented for the first half of 2015, it was still ranked highly and consistently in the top fifth of forecasts.
 

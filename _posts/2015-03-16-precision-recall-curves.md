@@ -130,7 +130,7 @@ the data. Here's an example using some simulated data I'll discuss more below:
 Which gives the following ROC curve if we plot the TP and FP rates:
 
 {% capture fig_img %}
-[![ROC curve for the example data]({{ site.url }}/assets/2015/roc-example.png)]({{ site.url }}/assets/2015/roc-example.png)
+[![ROC curve for the example data]({{ site.url }}/content/2015/roc-example.png)]({{ site.url }}/content/2015/roc-example.png)
 {% endcapture %}
 {% capture fig_caption %}
 ROC curve for the example data
@@ -189,7 +189,7 @@ example as before. Instead of FPR we now have precision, and I've also flipped
 the axes as it seems to be convention to plot recall on the x-axis.
 
 {% capture fig_img %}
-[![Precision-recall curve for the same example data with 0.4 positives.]({{ site.url }}/assets/2015/pr-example.png)]({{ site.url }}/assets/2015/pr-example.png)
+[![Precision-recall curve for the same example data with 0.4 positives.]({{ site.url }}/content/2015/pr-example.png)]({{ site.url }}/content/2015/pr-example.png)
 {% endcapture %}
 {% capture fig_caption %}
 Precision-recall curve for the same example data with 0.4 positives.
@@ -216,7 +216,7 @@ edgier on the right, but this is just because there are less positive outcomes
 based on which recall/TPR are calculated. All models are doing equally well if
 we use ROC curves and AUC as our metric.
 
-[![ROC curve]({{ site.url }}/assets/2015/roc.png)]({{ site.url }}/assets/2015/roc.png)
+[![ROC curve]({{ site.url }}/content/2015/roc.png)]({{ site.url }}/content/2015/roc.png)
 
 The corresponding precision-recall plots on the other hand show the loss of
 precision as one moves to sparser data, and here it becomes more obvious that
@@ -225,7 +225,7 @@ model barely touches on 0.5 precision (1 correct positive for 1 false
 positive), and if we were to calculate the area under the PR curves (AUC-PR)
 we'd get values much lower, 0.25 and less.
 
-[![PR curves]({{ site.url }}/assets/2015/rpc.png)]({{ site.url }}/assets/2015/rpc.png)
+[![PR curves]({{ site.url }}/content/2015/rpc.png)]({{ site.url }}/content/2015/rpc.png)
 
 A lot of conflict research is in the world of the rightmost plot, maybe
 somewhere between the two rightmost plots if you are working with occurrence

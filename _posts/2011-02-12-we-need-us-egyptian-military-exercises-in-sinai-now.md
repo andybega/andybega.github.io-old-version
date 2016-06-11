@@ -11,7 +11,7 @@ tags:
 - regime stability
 ---
 
-{% include _image.html img="assets/2011/landing-craft.jpg" title="Bright Star landing craft" caption="Exercise Bright Star 2009" %}
+{% include _image.html img="content/2011/landing-craft.jpg" title="Bright Star landing craft" caption="Exercise Bright Star 2009" %}
 
 In 2003 we invaded Iraq with the hope that people would cheer in the streets. They didn't. We occupied the country anyways and our presences was and generally is hated by the people.
 
@@ -22,7 +22,7 @@ We already are conducting military exercises with the Egyptian military and have
 What about constitutional design? For a country with a good economic outlook and relatively low ethnic diversity, a consensus democracy with weak executive and decentralization increases the changes of democratic durability.
 
 
-[![ethnic fractionalization conditional effect]({{ site.url }}/assets/2011/ethfrac-cond-effect.png)]({{ site.url }}/assets/2011/ethfrac-cond-effect.png)
+[![ethnic fractionalization conditional effect]({{ site.url }}/content/2011/ethfrac-cond-effect.png)]({{ site.url }}/content/2011/ethfrac-cond-effect.png)
 
 
 Back in 2006 I did some work that provides empirical support for this claim.  The figure on the right, taken from the paper, shows the marginal effect of having a consensus style democracy on the chances of regime change, when there is positive economic growth. Egypt places at about a 0.19 on ethnic fractionalization and has experienced positive growth in the past few years. Therefore a consensus style democracy would have a negative marginal effect on the chances of regime change. In other words, a consensus democracy in Egypt would survive longer than another integrative democracy.

@@ -11,7 +11,7 @@ meta:
   _edit_last: '19821693'
 ---
 
-A few months ago the Defense Science Board Task Force on Defense Intelligence released a report on [Counterinsurgency (COIN) Intelligence, Surveillance, and Reconnaissance (ISR) Operations (pdf)]({{ site.url}}/assets/2011/ADA543575.pdf). Among its recommandations is that:
+A few months ago the Defense Science Board Task Force on Defense Intelligence released a report on [Counterinsurgency (COIN) Intelligence, Surveillance, and Reconnaissance (ISR) Operations (pdf)]({{ site.url}}/content/2011/ADA543575.pdf). Among its recommandations is that:
 
 > the government generally should increase investment in social science disciplines (anthropology, ethnography, human geography, sociology, social-psychology, political science, and economics) to inform a whole-of-government approach to understanding local cultures and customs and to support future COIN campaigns.
 

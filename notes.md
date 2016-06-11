@@ -39,7 +39,7 @@ Added the script code to header.
 
 ```
 
-Github pages is not showing MathJax with environments. They are rendering properly locally, but not on GHP. 
+Github pages is not showing MathJax with environments. They are rendering properly locally, but not on GHP. Problem was html compression, which removed line breaks. Had to wrap in paragraphs. Removed html compression anyways.
 
 Reduced default font size.
 
