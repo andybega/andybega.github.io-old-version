@@ -1,6 +1,7 @@
 --- 
 layout: single
 title: Precision-recall curves 
+excerpt: ROC curves are not very good for evaluating model fit with sparse outcomes, like civil war onset or coups. Use precision-recall curves instead.
 date: 2015-03-16 16:00:04.000000000 +02:00 
 categories:
 - post
@@ -12,7 +13,8 @@ tags:
 - ROC curves 
 ---
 
-*Update 2016-06: there's a PDF of this now, at [http://ssrn.com/abstract=2765419](http://ssrn.com/abstract=2765419)*
+**Update 2016-06**: there's a PDF of this now, at [http://ssrn.com/abstract=2765419](http://ssrn.com/abstract=2765419)
+{: .notice--info}
 
 [ROC curves](http://en.wikipedia.org/wiki/Receiver_operating_characteristic)
 are a fairly standard way to evaluate model fit with binary outcomes, like

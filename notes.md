@@ -1,5 +1,13 @@
 
+```
+bundle exec jekyll serve --config _config.yml,_config.dev.yml
+```
+
 TODO:
+
+- check for broken links
+- move all papers from DB to GHP
+- post on wordpress moving to new blog
 
 
 ```
@@ -17,10 +25,15 @@ Stairs? Were we're going we don't need no stairs.
 </figure>
 ```
 
+Linking to other posts. Use raw file names.
 ```
-bundle exec jekyll serve --config _config.yml,_config.dev.yml
+{% post_url 2010-07-21-name-of-post %}
+
+{% post_url /subdir/2010-07-21-name-of-post %}
+
+[Name of Link]({% post_url 2010-07-21-name-of-post %})
 ```
-	
+
 # Changes from template
 
 Drop in booktabs tabley style from tufte CSS. To _tables.scss. 

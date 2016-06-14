@@ -5,6 +5,20 @@ author_profile: true
 
 {% include base_path %}
 
+<h3 class="archive__subtitle">Are you looking for...?</h3>
+
+<div class="list__item"> 
+<a href={% post_url 2013-09-05-stata-do-files-for-country-code-conversions %}>
+<article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork"> <h2 class="archive__item-title" itemprop="headline">Stata do files for country code conversions </h2> 
+<p class="archive__item-excerpt" itemprop="description"> Convert ISO country names or codes to COW codes. </p> 
+</article> </a> </div>
+
+<div class="list__item"> 
+<a href={% post_url 2012-08-25-scale-and-north-arrow-for-maps-in-r %}>
+<article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork"> <h2 class="archive__item-title" itemprop="headline">Scale and north arrow for maps in R </h2> 
+<p class="archive__item-excerpt" itemprop="description"> Add scales and north arrows to maps produced with base graphics in R. </p> 
+</article> </a> </div>
+
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts }}</h3>
 
 {% for post in paginator.posts %}

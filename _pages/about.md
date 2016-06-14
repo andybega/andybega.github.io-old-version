@@ -6,7 +6,7 @@ sitemap: true
 permalink: /about/
 header:
   image: estonia-lake.jpg
-  caption: "Estonia"
+  caption: "Camping in Estonia"
 ---
 
 I'm a political scientists by training, and I work as a data scientist on modeling and predicting political conflict, mostly using R and MySQL/PostgreSQl/PostGIS. Here are some things about me that might be interesting:
