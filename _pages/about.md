@@ -9,7 +9,7 @@ header:
   caption: "Camping in Estonia"
 ---
 
-I'm a political scientists by training, and I work as a data scientist on modeling and predicting political conflict, mostly using R and MySQL/PostgreSQl/PostGIS. Here are some things about me that might be interesting:
+I'm a political scientists by training, and I work as a data scientist on modeling and predicting political conflict, mostly using R and MySQL/PostgreSQL/PostGIS. Here are some things about me that might be interesting:
 
 * I enjoy helping people with data wrangling and statistical programming issues. It's a large part of what I did as a graduate methods teaching assistant for a few semesters. 
 * I was a reservist in the US military for 13 years, and spent 7 months in northern Iraq in a job related to prediction. 
