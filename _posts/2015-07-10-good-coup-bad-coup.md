@@ -3,7 +3,7 @@ layout: single
 title: Good coup, bad coup 
 date: 2015-07-10 13:03:36.000000000 +03:00 
 categories:
-- post
+- research
 tags: 
 - Archigos 
 - coups 

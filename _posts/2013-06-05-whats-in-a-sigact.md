@@ -3,7 +3,7 @@ layout: single
 title: What's in a SIGACT
 date: 2013-06-05 05:54:33.000000000 +03:00
 categories:
-- post
+- commentary
 tags:
 - Afghanistan
 - IED

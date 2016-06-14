@@ -3,7 +3,7 @@ layout: single
 title: The Thailand coup and some recent forecasting work
 date: 2014-05-23 03:41:12.000000000 +03:00
 categories: 
-- post
+- research
 tags: 
 - Thailand
 - irregular leadership change

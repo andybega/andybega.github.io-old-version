@@ -3,7 +3,7 @@ layout: single
 title: 'When forecasting goes wrong (maybe): Yemen'
 date: 2015-09-24 16:16:14.000000000 +03:00
 categories:
-- post
+- research
 tags:
 - Yemen
 - irregular leadership change

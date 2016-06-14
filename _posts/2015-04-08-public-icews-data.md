@@ -3,7 +3,7 @@ layout: single
 title: A quick look at the public ICEWS data 
 date: 2015-04-08 12:11:08.000000000 +03:00 
 categories:
-- post
+- research
 tags: 
 - event data 
 - icews

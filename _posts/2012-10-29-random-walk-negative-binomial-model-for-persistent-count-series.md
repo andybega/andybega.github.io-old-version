@@ -3,7 +3,7 @@ layout: single
 title: Random walk negative binomial model for persistent count series.
 date: 2012-10-29 22:07:55.000000000 +02:00
 categories:
-- post
+- research
 tags:
 - Bayesian
 - Iraq

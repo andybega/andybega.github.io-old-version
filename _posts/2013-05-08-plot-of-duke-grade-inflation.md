@@ -3,7 +3,7 @@ layout: single
 title: Plot of Duke grade inflation
 date: 2013-05-08 01:36:07.000000000 +03:00
 categories:
-- post
+- programming
 tags:
 - Duke
 - grade inflation

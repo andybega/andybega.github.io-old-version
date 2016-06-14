@@ -4,7 +4,7 @@ title: Precision-recall curves
 excerpt: ROC curves are not very good for evaluating model fit with sparse outcomes, like civil war onset or coups. Use precision-recall curves instead.
 date: 2015-03-16 16:00:04.000000000 +02:00 
 categories:
-- post
+- research
 tags: 
 - AUC-PR 
 - AUC-ROC 

@@ -3,7 +3,7 @@ layout: single
 title: Defense doublethink
 date: 2013-12-24 02:40:15.000000000 +02:00
 categories:
-- post
+- commentary
 tags: []
 ---
 

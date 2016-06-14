@@ -3,7 +3,7 @@ layout: single
 title: Associating points with polygons in R
 date: 2014-03-29 02:29:03.000000000 +02:00
 categories:
-- post
+- programming
 tags:
 - R
 - sp

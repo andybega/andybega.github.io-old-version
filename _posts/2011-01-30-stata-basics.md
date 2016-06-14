@@ -3,7 +3,7 @@ layout: single
 title: Stata Basics
 date: 2011-01-30 23:07:35.000000000 +02:00
 categories:
-- post
+- teaching
 tags:
 - Stata
 ---

@@ -3,7 +3,7 @@ layout: single
 title: Building a survivor curve from observed data
 date: 2012-12-22 02:52:38.000000000 +02:00
 categories:
-- post
+- teaching
 tags:
 - teaching
 - duration modeling

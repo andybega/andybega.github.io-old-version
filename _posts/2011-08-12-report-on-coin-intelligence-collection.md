@@ -3,7 +3,7 @@ layout: single
 title: Report on COIN intelligence collection
 date: 2011-08-12 07:35:49.000000000 +03:00
 categories:
-- post
+- commentary
 tags:
 - coin
 - Iraq

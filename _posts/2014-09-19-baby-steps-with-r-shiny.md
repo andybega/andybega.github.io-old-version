@@ -3,7 +3,7 @@ layout: single
 title: Baby steps with R Shiny
 date: 2014-09-19 09:07:20.000000000 +03:00
 categories:
-- post
+- programming
 tags:
 - R
 - SEB Tallinn Marathon

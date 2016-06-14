@@ -3,7 +3,7 @@ layout: single
 title: Scale and north arrow for maps in R
 date: 2012-08-25 03:59:14.000000000 +03:00
 categories:
-- post
+- programming
 tags:
 - Bosnia
 - map scale

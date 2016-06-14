@@ -4,7 +4,7 @@ title: Bosnia 1991 municipalities
 date: 2011-01-18 09:24:02.000000000 +02:00
 excerpt: GIS shapefiles for Bosnia's 109 pre-civil war municipalities. 
 categories:
-- post
+- data
 tags:
 - Bosnia
 - data

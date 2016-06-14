@@ -3,7 +3,7 @@ layout: single
 title: Building rgdal from source
 date: 2014-10-15 16:45:31.000000000 +03:00
 categories:
-- post
+- programming
 tags:
 - homebrew
 - OS X Mavericks

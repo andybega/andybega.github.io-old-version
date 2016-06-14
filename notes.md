@@ -1,6 +1,6 @@
 
 ```
-bundle exec jekyll serve --config _config.yml,_config.dev.yml
+bundle exec jekyll serve --config _config.yml,_config.dev.yml --drafts
 ```
 
 TODO:
@@ -11,6 +11,8 @@ TODO:
 
 
 ```
+[![tag]({{ site.url }}/assets/2015/foo.png){: .align-center}]({{ site.url }}/assets/2015/foo.png)
+
 [![tag]({{ site.url }}/assets/2015/foo.png)]({{ site.url }}/assets/2015/foo.png)
 
 {% capture fig_img %}

@@ -3,7 +3,7 @@ layout: single
 title: Time to learn Python
 date: 2013-11-21 08:31:34.000000000 +02:00
 categories:
-- post
+- programming
 tags:
 - Python
 - R

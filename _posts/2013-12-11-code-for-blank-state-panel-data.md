@@ -3,7 +3,7 @@ layout: single
 title: Code for blank state panel data
 date: 2013-12-11 06:26:20.000000000 +02:00
 categories:
-- post
+- programming
 tags:
 - country codes
 - R
