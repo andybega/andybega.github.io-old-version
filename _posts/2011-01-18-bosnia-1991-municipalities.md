@@ -1,7 +1,8 @@
 ---
 layout: single
 title: Bosnia 1991 municipalities
-#date: 2011-01-18 09:24:02.000000000 +02:00
+date: 2011-01-18 09:24:02.000000000 +02:00
+excerpt: GIS shapefiles for Bosnia's 109 pre-civil war municipalities. 
 categories:
 - post
 tags:
@@ -11,7 +12,7 @@ tags:
 ---
 
 
-[![Bosnia with 1995 municipalities]({{ site.url }}/content/2011/yugoslavia.jpg)]({{ site.url}}/content/2011/yugoslavia.jpg)
+[![Bosnia with 1995 municipalities]({{ site.url}}/content/2011/yugoslavia.jpg){: .align-center}]({{ site.url}}/content/2011/Yugoslavia.png)
 
 This dates back to work I did in 2008, but some people seem to find it useful:
 

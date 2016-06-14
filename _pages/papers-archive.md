@@ -42,3 +42,7 @@ tags: []
 3. **Predicting the intensity and location of violence in war**
 <br> 2012, ([pdf]({{ site.url }}/content/papers/Beger_A_2012_Dissertation.pdf))
 <br> My three-papers-wrapped-together Ph.D. dissertation. 
+
+4. **Simulating the Effects of Selection Bias in the Minorities at Risk Project.**
+<br> 2008, ([pdf]({{ site.url }}/content/papers/Beger_2008_MARSelectionBias.pdf))
+<br> How much of a problem is it that the Minority at Risk project collects information only for ethnic groups that are "at risk", i.e. selection on the dependent variable?
