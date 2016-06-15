@@ -21,6 +21,8 @@ comments:
   provider               : "disqus"
   disqus:
     shortname            : "mireg"
+  discourse:
+    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
@@ -186,10 +188,10 @@ whitelist:
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
 #  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path/my-awesome-category/index.html ~> path: /
-categories:
+category_archive:
   type: liquid
   path: /categories/
-tags:
+tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
@@ -207,13 +209,13 @@ tags:
 
 # HTML Compression
 # - http://jch.penibelst.de/
-#compress_html:
-#  clippings: all
-#  comments: all
-#  endings: all
-#  startings: [head, body]
-#  ignore:
-#    envs: development
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: [head, body]
+  ignore:
+    envs: development
 
 # Default values
 defaults:

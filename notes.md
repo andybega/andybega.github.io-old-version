@@ -58,5 +58,6 @@ Github pages is not showing MathJax with environments. They are rendering proper
 
 Reduced default font size.
 
+reduced archive item title font size
 
 
