@@ -2,6 +2,7 @@
 layout: single
 title: 3d surface plots of GDP vs. event data
 slug: 3d-surface-plots
+date: 2016-03-03 12:00:00
 category: research
 tags: [plotly, 3d surface plot]
 ---
