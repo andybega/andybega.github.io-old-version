@@ -126,7 +126,6 @@ exclude:
   - README
   - tmp
   - notes
-  - _drafts
 keep_files:
   - .git
   - .svn
