@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "MI Regression"
 title_separator          : "-"
 name                     : "Andreas Beger"
-description              : "Personal blog."
+description              : "My personal blog about political science, prediction, R"
 url                      : http://andybeger.com #http://127.0.0.1:4000   # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : #"/mireg" # the subpath of your site, e.g. "/blog"
 gh_repo                  :
@@ -101,7 +101,6 @@ author:
 include:
   - .htaccess
   - _pages
-  - _posts
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -126,6 +125,7 @@ exclude:
   - README
   - tmp
   - notes
+  - "*.Rproj"
 keep_files:
   - .git
   - .svn
