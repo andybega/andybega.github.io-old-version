@@ -21,7 +21,7 @@ Beyond the documentation that comes with the Minimal Mistakes theme, Rose has th
 
 Otherwise, I found these guides to be helpful in particular:
 
-- [Moving From Wordpress to Jekyll](http://mattdickenson.com/2016/02/29/moving-from-wordpress-to-jeykll/), by Matt Dickenson
+- [Moving From Wordpress to Jekyll](http://mattdickenson.com/2016/02/29/moving-from-wordpress-to-jekyll/), by Matt Dickenson
 - [How-to: Migrating Blog from WordPress to Jekyll, and Host on Github](http://www.girliemac.com/blog/2013/12/27/wordpress-to-jekyll/), by Tomomi Imura
 - [Lessons Learned Switching From Wordpress On Dreamhost To Jekyll On GitHub](http://www.leemunroe.com/moving-wordpress-dreamhost-to-jekyll-github/), by Lee Munroe
 - [Using a Custom Domain with GitHub Pages](http://michaeljdeeb.com/blog/using-a-custom-domain-with-github-pages/), by Michael Deeb
@@ -74,7 +74,7 @@ Looking at traffic, I had 1 or 2 thousand page views in the first year, which gr
 
 Looking at specific posts, the majority of visitors come for the Stata country conversion do files and for how to put north arrows and scales on R maps. Those posts have been up since 2012 and 2013, and I had the Stata do files on my web site before then, so I think there are some habitual users of these. I'm glad that three of the posts from 2015 are showing up in the top list (these are the ones marked with orange). 
 
-For now, the old blog is still around at [andybeger.wordpress.com](andybeger.wordpress.com). But all the content is here as well. 
+For now, the old blog is still around at [andybeger.wordpress.com](http://andybeger.wordpress.com). But all the content is here as well. 
 
 Now back to those research projects. 
 
