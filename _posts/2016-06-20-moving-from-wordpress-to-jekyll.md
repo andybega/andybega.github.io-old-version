@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Moving from Wordpress to Jekyll
-date: 2016-06-20 11:00:00
+date: 2016-06-20 15:00:00
 category: meta
 tags: [wordpress, jekyll, traffic, Matt Dickenson, Michael Rosen]
 ---

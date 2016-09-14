@@ -212,11 +212,13 @@ tag_archive:
 # - http://jch.penibelst.de/
 compress_html:
   clippings: all
-  comments: all
-  endings: 
-  startings: 
+  comments: []
+  endings: []
   ignore:
-    envs: development
+    envs: []
+  blanklines: true
+  profile: false
+  startings: []
 
 # Default values
 defaults:
