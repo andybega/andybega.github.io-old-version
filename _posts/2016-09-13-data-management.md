@@ -22,7 +22,7 @@ It's not really surprising that other people will find problems I overlooked and
 
 The data I was looking at consist of country-years and the key variable is civil war onset. I don't want to mention what paper they came from, because that's not really important. For what it's worth, I think the authors built on other people's data and the paper itself was interesting to me. Also, *I was able to replicate the results in the paper **without any** problems*, so that's a win.
 
-Here is what the data look like, leaving off columns that aren't important for the examples below.
+Here is what the data look like, leaving off columns that are not needed for the examples below.
 
 | year| cowcode| ln_gdpen|
 |----:|-------:|--------:|
@@ -48,25 +48,25 @@ GDP per capita data should not look like this. There are some spikes, like circa
 
 ## Plotting missing values
 
-One of the things I usually do with data like these and variables that have missing values is to plot the missing values against country and year. With these data this produces a plot like this:
+One of the things I usually do with data like these and variables that have missing values is to plot the missing values against country and year. This produces a plot like this:
 
 [![Plot of missing values]({{ site.url }}/content/2016/missing-plot-1.png)]({{ site.url }}/content/2016/missing-plot-1.png)
 
 Each little block in this plot corresponds to a country-year, i.e. a row in the dataset. On the x-axis are years, and on the y-axis all the different countries. The color of each block shows whether that country-year had complete data (blue), missing values (red), or whether the observation was absent entirely. What that means is that given the set of unique countries in the dataset and the range of years, the hypothetical combination of that particular country-year value was not in the data. Like Yugoslavia after 1991, when the country didn't exist anymore. 
 
-There are no missing values in the coup dataset, but four countries drop out of the data suddenly in 2000 (the four white blocks on the right edge). I didn't label the country axis because it gets cluttered, but the countries are Algeria, Macedonia, Sierra Leone, and Congo (DRC). No obvious reason that these four should suddenly have missing data for GDP per capita, especially since the other values for 2000 appear to have been imputed by setting to the mean.
+There are no missing values in the coup dataset, but four countries drop out of the data suddenly in 2000 (the four white blocks on the right edge). I didn't label the country axis because it gets cluttered, but the countries are Algeria, Macedonia, Sierra Leone, and Congo-DRC). No obvious reason that these four should suddenly have missing data for GDP per capita, especially since the other values for 2000 appear to have been imputed by setting to the mean.
 
-Another reason to use these plots is that they can show whether missing values are missing for entire countries or years. That's potentially important for how to deal with those missing values and whether to impute or drop data. Here are two examples that show what an entire missing year or countries that are completely missing some value would look like. 
+A more usual reason to use these plots is that they can show whether missing values are missing for entire countries or years. That is potentially important for how and whether to impute or drop data. Here are two examples that show what an entire missing year or countries that are completely missing some value would look like. 
 
 [![Plot of missing values]({{ site.url }}/content/2016/missing-plot-2.png)]({{ site.url }}/content/2016/missing-plot-2.png)
 
-In between the noodle plot from above and these missing value plots, it would have been more obvious that GDP per capita was missing for a whole year, and that some other way to impute, e.g. even by carrying forward the 1999 value, would have been more sensible than setting to the mean.
+In between the noodle plot from above and these missing value plots, it would have been more obvious that GDP per capita was missing for a whole year, and that some other way to impute, even by carrying forward the 1999 value, would have been more sensible than setting to the mean.
 
 ## What about state system membership?
 
-Since the data were fully imputed, looking at missing values doesn't get us very far. We can also check against state system membership though. COW and Gleditsch and Ward have two related, but different, lists of what states were in existence over what time periods. This tells us which hypothetical country-year combinations we should expect, and which should be absent. 
+Since the data were fully imputed, looking at missing values doesn't get us very far. We can also check against state system membership though. The [Correlates of War (COW) Project](http://www.correlatesofwar.org/data-sets/state-system-membership) and [Gleditsch and Ward](http://privatewww.essex.ac.uk/~ksg/statelist.html) have two related, but different, lists of what states were in existence over what time periods. This tells us which hypothetical country-year combinations we should expect, and which should be absent. 
 
-Throwing state system membership in the mix gives us two dimensions along which we can classify the observations in the country-year coup dataset. The first dimension is whether a case--by which a mean a particular country-year combination out of all possible combinations--has missing values, is complete, or is absent from the data. Absent here, again, means there is no observation with that country-year combination in the data. The second dimension is whether a particular case was in the state system according to one of the two lists I mentioned before. That makes for six possible combinations:
+Throwing state system membership in the mix gives us two dimensions along which one can classify the observations in the country-year coup dataset. The first dimension is whether a case, by which a mean a particular country-year combination out of all possible combinations, has missing values, is complete, or is absent from the data. Absent here, again, means there is no observation with that country-year combination in the data. The second dimension is whether a particular case was in the state system according to one of the two lists I mentioned before. That makes for six possible combinations:
 
 | Case | In state sys. | Outside state sys. |
 |------|-------|------------|
@@ -74,13 +74,13 @@ Throwing state system membership in the mix gives us two dimensions along which 
 |Missing values | Semi-bad | Bad |
 |Case missing | Bad | Good |
 
-In the end, we want all observations in our data to correspond with state system members and to have complete data. Conversely, if we militantly stick to the state system membership lists, we want no cases that should not be there. Anything else is problematic. For country-year combinations that were in the state system and are missing values, we want to impute those. But cases that are missing even though we should have them in the data, like those four countries from before, and cases that are in the data even though they don't correspond to independent states, indicate that the data don't match the state system membership expectations. 
+In the end, we want all observations in our data to correspond with state system members and to have complete data. Conversely, if we militantly stick to the state system membership lists, we want no cases that should not be there according to the state system lists. Anything else is problematic. For country-year combinations that were in the state system and are missing values for one or more variables, we we may be able to impute. But cases that are missing even though we should have them in the data, like those four countries from before, and cases that are in the data even though they don't correspond to independent states, indicate that the data do not match the state system membership expectations. 
 
-With this new categorization, here is a plot that checks both missing values and state system membership. The legend corresponds to the table above. The color scheme could use some help.
+With this new categorization, here is a plot that checks both missing values and state system membership. The legend corresponds to the table above, although the color scheme could use some help.
 
 [![Missing plot with SS check]({{ site.url }}/content/2016/missing-plot-w-sscheck.png)]({{ site.url }}/content/2016/missing-plot-w-sscheck.png)
 
-A couple of things that stand out in this plot:
+A couple of things about the data that stand out now, in this plot:
 
 - Most countries have one leading year of data that shouldn't be there. Maybe this was done so that lagged variables would not be missing for the first year. Twenty-nine countries do not have a leading year of data however. 
 - Several countries conversely are missing their first year.
@@ -97,10 +97,10 @@ These kinds of problems are more obvious when you are doing prediction, as I hav
 
 One could argue though that it is less problematic for analyses that in the end boil down to a coefficient in a table somewhere. So what if a few values are off? Just like changing a few data points when you are computing the mean of several thousand numbers probably won't affect the mean too much, a few extra, some missing country-years and a couple of skewed data points in some unknown fraction of cases won't affect results in important ways. 
 
-But then on the other hand, in some fraction of cases it could alter results and the substantive conclusions one draws. I think I can partly piggyback here on the justifications people give for why imputing missing values is important and better than alternatives like dropping cases. And, estimates are fragile enough that it is common to see robustness checks in published papers. If small changes in specification or measurement are a serious enough threat to check for them, then I imagine a small percentage of questionable data points would also be problematic. 
+But then, on the other hand, a few small mistakes will alter results and conclusions sometimes, and we don't know which of these two worlds we are in with any particular instance of data. I think I can partly piggyback here on the justifications people give for why imputing missing values is important and better than alternatives like dropping cases. Also, estimates are fragile enough that it is common to see robustness checks in published papers. If small changes in specification or measurement are a serious enough threat to need to check for them, then I imagine a small percentage of questionable data points would also be problematic. 
 
-If nothing else, the plots I've shown can help identify issues in the data wrangling and merging stage of a project, and help with decisions about how to handle missing values. Are you comfortable imputing values for GDP per capita for all of 2000? Or for a country that is missing the whole series? Whether you are or not (I'm not), that's a more focused issue than "hey, 5% of my cases have missing values for this variable, that's not that much, I'll just...".  
+If nothing else, i.e. you don't buy any of that, the plots I've shown can help identify issues in the data wrangling and merging stage of a project, and help with decisions about how to handle missing values. Are you comfortable imputing values for GDP per capita for all of 2000? Or for a country that is missing the whole series? Whether you are or not (I'm not), that's a more focused issue than "hey, 5% of my cases have missing values for this variable, that's not that much, I'll just...".  
 
 My solution to these issues has been to start with an empty dataset that contains the cases I know should be there, merge other raw data onto it, and pedantically investigate any deviations and deal with them as seems reasonable. So, start with an empty country-year/month/whatever dataset constructed from one of the state system membership lists, merge, and subsequently impute, drop, or find alternative data sources as needed. It's tedious, and I probably make a lot of mistakes, but it's also easier to identify why something is missing and whether that is problematic. Conversely, it drives me nuts when suddenly 10 or 20% of cases used in some descriptive statistics in a paper are suddenly not used in a regression model that is presented in the results, or when the number of cases changes between different models. What is happening here?
 
-[Data and R code for this post the figures.](https://github.com/andybega/mireg-blogs/tree/master/data-management)
+[Data and R code for this post, producing similar figures, and producing country-year, month, or day datasets that correspond to the COW or G&W state lists.](https://github.com/andybega/mireg-blogs/tree/master/data-management)
