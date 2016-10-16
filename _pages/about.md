@@ -9,7 +9,7 @@ header:
   caption: "Camping in Estonia"
 ---
 
-I am a data scientist at [Ward Associates](http://www.wardassociatesinc.com), a small consulting firm, where I work on predictive modeling of political conflict. 
+I am a data scientist at [Ward Associates](http://www.wardassociatesinc.com), a consulting firm, where I work on predictive modeling of political conflict. 
 
 My previous position was as Postdoctoral Fellow at Duke University in the [Wardlab group](http://www.mdwardlab.com), where I contributed to the forecasting component of the W-ICEWS global forecasting project, developed and maintained near-real time forecasts of irregular leadership change--coups, mass protests, and armed rebellion--for the Political Instability Task Force (PITF), and did predictive modeling of improvised explosive devices (IEDs) and similar mines in Afghanistan and Colombia. 
 
