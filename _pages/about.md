@@ -9,10 +9,12 @@ header:
   caption: "Camping in Estonia"
 ---
 
-I'm a political scientists by training, and I work as a data scientist on modeling and predicting political conflict, mostly using R and MySQL/PostgreSQL/PostGIS. Here are some things about me that might be interesting:
+I am a data scientist at [Ward Associates](http://www.wardassociatesinc.com), a small consulting firm, where I work on predictive modeling of political conflict. 
 
-* I enjoy helping people with data wrangling and statistical programming issues. It's a large part of what I did as a graduate methods teaching assistant for a few semesters. 
-* I was a reservist in the US military for 13 years, and spent 7 months in northern Iraq in a job related to prediction. 
-* I had and survived leukemia not so long ago, as a young adult. 
-* My mother languages are German and Serbian, I speak English mostly now, and am learning Estonian. I've lived in Germany and the US for most of my life, but spent all of my childhood summers on the beautiful Croatian coast. 
-* I live in Tallinn, Estonia, with my wife and daughter and our dog. 
+My previous position was as Postdoctoral Fellow at Duke University in the [Wardlab group](http://www.mdwardlab.com), where I contributed to the forecasting component of the W-ICEWS global forecasting project, developed and maintained near-real time forecasts of irregular leadership change--coups, mass protests, and armed rebellion--for the Political Instability Task Force (PITF), and did predictive modeling of improvised explosive devices (IEDs) and similar mines in Afghanistan and Colombia. 
+
+I was a reservist in the US military for 13 years, and finished my career as a military intelligence officer. In that capacity I have overseen real-world tracking and prediction of IED and other violent activities during a deployment to northern Iraq. 
+
+In between these projects I have experience with R for general data management and analysis, MySQL for maintaining a 230 million plus event database, and PostGIS/Postgresql for managing and processing spatial data. 
+
+I was born and raised in Germany and Croatia, and lived in the US for 15 years. Since 2014 I live in Tallinn, Estonia. 

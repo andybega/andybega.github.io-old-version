@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "MI Regression"
 title_separator          : "-"
 name                     : "Andreas Beger"
-description              : "My personal blog about political science, prediction, R"
+description              : "My personal blog about conflict forecasting and political science."
 url                      : http://andybeger.com #http://127.0.0.1:4000   # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : #"/mireg" # the subpath of your site, e.g. "/blog"
 gh_repo                  :
@@ -71,7 +71,7 @@ google_ad_slot           :
 author:
   name             : "Andreas Beger"
   avatar           : "mugshot2011.jpg"
-  bio              : "Political scientist / (faux) data scientist / conflict forecaster"
+  bio              : "Conflict forecasting, data science"
   location         : "Tallinn, Estonia"
   email            : "adbeger+mireg@gmail.com"
   uri              :
