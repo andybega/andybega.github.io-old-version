@@ -23,7 +23,7 @@ Here is a quick look at the larger picture. I took the same Powell and Thyne [da
 
 The overwhelming pattern for all 227 _successful_ coups that the data cover is that things stay the same (0.41 of cases) or get worse (0.40 of cases). The plot below shows the number of times specific category-to-category switches took place, with the regime 7 days before a successful coup on the _y_-axis, and the regime 2 years later on the _x_-axis. It's really just a slightly more fancy version of a transition matrix.[^2]
 
-[![SSA, 90's on]({{ site.url }}/content/2015/2-year-transitions-ssa-90on.png)]({{ site.url }}/content/2015/2-year-transitions-ssa-90on.png)
+[![Regime type 2 years after a coup]({{ site.url }}/content/2015/2-year-transitions.png)]({{ site.url }}/content/2015/2-year-transitions.png)
 
 In 41, or 18 percent of cases, the regime was more democratic 2 years later. There are probably a few more that were still coded as being in transition to a more democratic regime, so the 18 percent is for unambiguously more democratic regimes.
 
@@ -37,7 +37,7 @@ By the way, I'm trying to consciously steer away from language implying causatio
 
 So, when we consider the whole data, coups have historically more often than not reinforced autocratic tendencies. The picture actually looks much better if you look at post-1990 Sub-Saharan Africa only, as Elischer's Monkey Cage post does:
 
-[![Sub-Saharan Africa 2-year]({{ site.url }}/content/2015/2-year-transitions-ssa-90on.png)]({{ site.url }}/content/2015/2-year-transitions-ssa-90on.png)
+[![Regime type 2 years after a coup, Sub-Saharan Africa only]({{ site.url }}/content/2015/2-year-transitions-ssa-90on.png)]({{ site.url }}/content/2015/2-year-transitions-ssa-90on.png)
 
 More than a third of coups in post-1990 Sub-Saharan Africa are followed by regime liberalization. To be honest I was a bit surprised that the ratio of "good" to "bad" coups is that high. Here is a timeline of the specific cases. I changed the colors so that "same" is now red as well. The labels are easier to read if you click to open the larger version of the image.
 
