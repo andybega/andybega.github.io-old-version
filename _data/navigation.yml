@@ -2,7 +2,21 @@
 main:
   - title: "Blog archive"
     url: /year-archive/
+  - title: "Coup forecasts"
+    url: /forecasts/current/
   - title: "Projects & Papers"
     url: /papers/
   - title: "About"
     url: /about/
+
+forecasts:
+  - title: Forecasts
+    children:
+      - title: "Current forecasts"
+        url: /forecasts/current/
+      - title: "Data and model"
+        url: /forecasts/data-and-model/
+      - title: "Accuracy measures"
+        url: /forecasts/accuracy-measures/
+      - title: "Credits"
+        url: /forecasts/credits/
